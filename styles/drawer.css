@@ -1,0 +1,42 @@
+.drawer-wrapper {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  width: 15vw;
+  padding: 1vw;
+  height: 91vh;
+  overflow-y: auto;
+}
+
+.drawer-subHeading {
+  padding: 10px 5px 0 0;
+  color: var(--text-color);
+}
+
+.drawer-lists {
+  text-decoration: none;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 1.5vw;
+  margin: 10px 0;
+  padding: 0.5rem 0.2rem;
+}
+
+.drawer-list-icons {
+  font-size: 1.5vw;
+}
+
+.drawer-list-content {
+  font-size: 1.2vw;
+}
+
+.drawer-lists:hover {
+  background-color: #d4dfe9;
+  border-radius: 5px;
+}
+
+.drawer-lists:focus {
+  color: var(--primary-color);
+  background-color: #a9cef3;
+  border-radius: 5px;
+}
