@@ -1,0 +1,54 @@
+/* Importing external styles */
+@import "../../../styles/typography.css";
+@import "../../../styles/variable.css";
+@import "../../../styles/reset.css";
+@import "../../../styles/header.css";
+@import "../../../styles/drawer.css";
+@import "../../../styles/padding.css";
+@import "../../../styles/margin.css";
+@import "../../../styles/utils.css";
+
+/* Avatar Wrapper */
+.avatar-wrapper {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+/* Normal shape avatar */
+.avatar {
+  border-radius: 10%;
+  width: 4rem;
+  height: 4rem;
+}
+
+/* Round shape avatar */
+.avatar-round {
+  border-radius: 50%;
+}
+
+/* Avatar Sizes */
+.avatar-xxl {
+  height: 5rem;
+  width: 5rem;
+}
+
+.avatar-xl {
+  height: 4rem;
+  width: 4rem;
+}
+
+.avatar-lg {
+  height: 3rem;
+  width: 3rem;
+}
+
+.avatar-sm {
+  height: 2rem;
+  width: 2rem;
+}
+
+.avatar-xs {
+  height: 1rem;
+  width: 1rem;
+}
