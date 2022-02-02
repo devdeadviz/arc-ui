@@ -1,0 +1,87 @@
+/* Importing external styles */
+@import "../../../styles/typography.css";
+@import "../../../styles/variable.css";
+@import "../../../styles/reset.css";
+@import "../../../styles/header.css";
+@import "../../../styles/drawer.css";
+@import "../../../styles/padding.css";
+@import "../../../styles/margin.css";
+@import "../../../styles/utils.css";
+
+.alert-wrapper {
+  width: 40vw;
+  border: 0.5px solid lightgray;
+  border-radius: 5px;
+}
+
+.alert {
+  border: none;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  width: max-content;
+}
+
+/* Standard Alert */
+
+.alert-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.alert-secondary {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: var(--success-dark-color);
+}
+
+.alert-danger {
+  background-color: var(--danger-color);
+  color: var(--danger-dark-color);
+}
+
+.alert-warning {
+  background-color: var(--warning-color);
+  color: var(--warning-dark-color);
+}
+
+.alert-dark {
+  background-color: var(--dark-color);
+  color: var(--darker-color);
+}
+
+/* Outline Alert */
+
+.outline-primary {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.outline-secondary {
+  border: 1px solid var(--secondary-color);
+  color: var(--text-color);
+}
+
+.outline-success {
+  border: 1px solid var(--success-dark-color);
+  color: var(--success-dark-color);
+}
+
+.outline-danger {
+  border: 1px solid var(--danger-dark-color);
+  color: var(--danger-dark-color);
+}
+
+.outline-warning {
+  border: 1px solid var(--warning-dark-color);
+  color: var(--warning-dark-color);
+}
+
+.outline-dark {
+  border: 1px solid var(--darker-color);
+  color: var(--darker-color);
+}
