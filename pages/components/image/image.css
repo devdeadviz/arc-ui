@@ -1,0 +1,35 @@
+@import "../../../styles/typography.css";
+@import "../../../styles/variable.css";
+@import "../../../styles/reset.css";
+@import "../../../styles/header.css";
+@import "../../../styles/drawer.css";
+@import "../../../styles/padding.css";
+@import "../../../styles/margin.css";
+@import "../../../styles/utils.css";
+
+.image-wrapper {
+  border: 1px solid lightgray;
+  width: fit-content;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.round-image {
+  height: fit-content;
+  width: fit-content;
+  border-radius: 50%;
+}
+
+.xl-image {
+  width: 22rem;
+}
+
+.lg-image {
+  width: 16rem;
+}
+
+.sm-image {
+  width: 10rem;
+}
