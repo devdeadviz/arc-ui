@@ -1,0 +1,171 @@
+/* Importing external styles */
+@import "../../../styles/typography.css";
+@import "../../../styles/variable.css";
+@import "../../../styles/reset.css";
+@import "../../../styles/header.css";
+@import "../../../styles/drawer.css";
+@import "../../../styles/padding.css";
+@import "../../../styles/margin.css";
+@import "../../../styles/utils.css";
+@import "../../../styles/flex.css";
+
+.btn {
+  font-size: calc(1.4 * var(--default-font-size));
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  width: fit-content;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+/* Standard buttons */
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.btn-success {
+  background-color: var(--success-dark-color);
+  color: var(--white-color);
+}
+
+.btn-danger {
+  background-color: var(--danger-dark-color);
+  color: var(--white-color);
+}
+
+.btn-warning {
+  background-color: var(--warning-dark-color);
+  color: var(--white-color);
+}
+
+.btn-dark {
+  background-color: var(--darker-color);
+  color: var(--white-color);
+}
+
+/* Outline Buttons */
+
+.btn-outline-primary {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline-secondary {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.btn-outline-success {
+  border: 1px solid var(--success-dark-color);
+  color: var(--success-dark-color);
+}
+
+.btn-outline-danger {
+  border: 1px solid var(--danger-dark-color);
+  color: var(--danger-dark-color);
+}
+
+.btn-outline-warning {
+  border: 1px solid var(--warning-dark-color);
+  color: var(--warning-dark-color);
+}
+
+.btn-outline-dark {
+  border: 1px solid var(--darker-color);
+  color: var(--darker-color);
+}
+
+/* Standard Button Hover Property */
+
+.btn-primary:hover {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-secondary:hover {
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.btn-success:hover {
+  background-color: transparent;
+  border: 1px solid var(--success-dark-color);
+  color: var(--success-dark-color);
+}
+
+.btn-danger:hover {
+  background-color: transparent;
+  border: 1px solid var(--danger-dark-color);
+  color: var(--danger-dark-color);
+}
+
+.btn-warning:hover {
+  background-color: transparent;
+  border: 1px solid var(--warning-dark-color);
+  color: var(--warning-dark-color);
+}
+
+.btn-dark:hover {
+  background-color: transparent;
+  border: 1px solid var(--darker-color);
+  color: var(--darker-color);
+}
+
+/* outline Button Hover Property */
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.btn-outline-success:hover {
+  background-color: var(--success-dark-color);
+  color: var(--white-color);
+}
+
+.btn-outline-danger:hover {
+  background-color: var(--danger-dark-color);
+  color: var(--white-color);
+}
+
+.btn-outline-warning:hover {
+  background-color: var(--warning-dark-color);
+  color: var(--white-color);
+}
+
+.btn-outline-dark:hover {
+  background-color: var(--darker-color);
+  color: var(--white-color);
+}
+
+/* Link Button */
+
+.link-btn {
+  text-decoration: none;
+}
+
+/* Floating Button */
+
+.floating-btn {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}

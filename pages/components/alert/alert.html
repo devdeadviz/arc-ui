@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Kuldeep Gupta" />
+    <link rel="icon" href="../../../assets/logo.png" type="image/icon type" />
+    <link rel="stylesheet" href="./alert.css" />
+    <title>Alerts</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
+        <h1><a class="header-heading" href="../../../index.html">Arc UI</a></h1>
+      </div>
+      <div class="header__nav">
+        <nav>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://twitter.com/devdeadviz"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://www.linkedin.com/in/devdeadviz/"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://github.com/devdeadviz"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="body-wrapper">
+      <aside class="drawer-wrapper">
+        <div class="drawer-header">
+          <h2 class="drawer-heading">Get Started</h2>
+        </div>
+        <hr />
+        <div class="drawer-options">
+          <a class="drawer-lists" href="../../get-started/intro.html">
+            <p class="drawer-list-content">Introduction</p>
+          </a>
+          <a class="drawer-lists" href="../../get-started/color.html">
+            <p class="drawer-list-content">Colors</p>
+          </a>
+          <a class="drawer-lists" href="../../get-started/typo.html">
+            <p class="drawer-list-content">Typography</p>
+          </a>
+        </div>
+        <div class="drawer-header">
+          <h2 class="drawer-heading">Components</h2>
+        </div>
+        <hr />
+        <div class="drawer-options">
+          <a class="drawer-lists" href="../avatar/avatar.html">
+            <p class="drawer-list-content">Avatars</p>
+          </a>
+          <a class="drawer-lists" href="../alert/alert.html">
+            <p class="drawer-list-content">Alert</p>
+          </a>
+          <a class="drawer-lists" href="../badge/badge.html">
+            <p class="drawer-list-content">Badges</p>
+          </a>
+          <a class="drawer-lists" href="../button/button.html">
+            <p class="drawer-list-content">Buttons</p>
+          </a>
+          <a class="drawer-lists" href="../card/card.html">
+            <p class="drawer-list-content">Cards</p>
+          </a>
+          <a class="drawer-lists" href="../image/image.html">
+            <p class="drawer-list-content">Image</p>
+          </a>
+          <a class="drawer-lists" href="../input/input.html">
+            <p class="drawer-list-content">Input</p>
+          </a>
+        </div>
+      </aside>
+      <main class="main-content m-5 width-90">
+        <h1 class="mb-4">Alert</h1>
+        <p class="mb-4">
+          An alert displays a short, important message in a way that attracts
+          the user's attention without interrupting the user's task.
+        </p>
+        <!-- Standard Alerts -->
+        <div class="standard-alert-wrapper">
+          <h2 class="mt-4 mb-4">Standard Alerts</h2>
+          <div class="alert-wrapper ml-5 p-4">
+            <div class="alert alert-primary" role="alert">
+              <strong>Primary!</strong> This is a Primary Alert!
+            </div>
+            <div class="alert alert-secondary" role="alert">
+              <strong>Secondary!</strong> This is a Secondary Alert!
+            </div>
+            <div class="alert alert-success" role="alert">
+              <strong>Success!</strong> This is a Success Alert!
+            </div>
+            <div class="alert alert-danger" role="alert">
+              <strong>Error!</strong> This is a Error Alert!
+            </div>
+            <div class="alert alert-warning" role="alert">
+              <strong>Warning!</strong> This is a Warning Alert!
+            </div>
+            <div class="alert alert-dark" role="alert">
+              <strong>Dark!</strong> This is a Dark Alert!
+            </div>
+          </div>
+          <p class="mt-4 mb-4">
+            Standard Alerts can be created using alert class, followed by the
+            variant name. It has six variants alert-primary, alert-secondary,
+            alert-success, alert-danger, alert-warning and alert-dark.
+          </p>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESecondary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Secondary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2509%2520%2520%2520%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-dark%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EDark%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Dark%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <!-- Outline Alerts -->
+        <div class="outline-alert-wrapper">
+          <h2 class="mt-4 mb-4">Outline Alerts</h2>
+          <div class="alert-wrapper ml-5 p-4">
+            <div class="alert outline-primary" role="alert">
+              <strong>Primary!</strong> This is a Primary Alert!
+            </div>
+            <div class="alert outline-secondary" role="alert">
+              <strong>Secondary!</strong> This is a Secondary Alert!
+            </div>
+            <div class="alert outline-success" role="alert">
+              <strong>Success!</strong> This is a Success Alert!
+            </div>
+            <div class="alert outline-danger" role="alert">
+              <strong>Error!</strong> This is a Error Alert!
+            </div>
+            <div class="alert outline-warning" role="alert">
+              <strong>Warning!</strong> This is a Warning Alert!
+            </div>
+            <div class="alert outline-dark" role="alert">
+              <strong>Dark!</strong> This is a Dark Alert!
+            </div>
+          </div>
+          <p class="mt-4 mb-4">
+            Outline Alerts can be created using alert class, followed by the
+            variant name. It has six variants outline-primary,
+            outline-secondary, outline-success, outline-danger, outline-warning
+            and outline-dark.
+          </p>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520outline-primary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520outline-secondary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESecondary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Secondary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520outline-danger%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520outline-warning%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2509%2520%2520%2520%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520outline-dark%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EDark%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Dark%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <!-- Alerts with icons -->
+        <div class="alert-icons-wrapper">
+          <h2 class="mt-4 mb-4">Alerts with Icon</h2>
+          <div class="alert-wrapper ml-5 p-4">
+            <div class="alert alert-primary" role="alert">
+              <i class="far fa-paper-plane mr-2"></i>
+              <strong>Primary!</strong> This is a Primary Alert!
+            </div>
+            <div class="alert alert-secondary" role="alert">
+              <i class="far fa-paper-plane mr-2"></i>
+              <strong>Secondary!</strong> This is a Secondary Alert!
+            </div>
+            <div class="alert alert-success" role="alert">
+              <i class="fas fa-check-circle mr-2"></i>
+              <strong>Success!</strong> This is a Success Alert!
+            </div>
+            <div class="alert alert-danger" role="alert">
+              <i class="fas fa-exclamation-triangle mr-2"></i>
+              <strong>Error!</strong> This is a Error Alert!
+            </div>
+            <div class="alert alert-warning" role="alert">
+              <i class="fas fa-exclamation-triangle mr-2"></i>
+              <strong>Warning!</strong> This is a Warning Alert!
+            </div>
+            <div class="alert alert-dark" role="alert">
+              <i class="fas fa-arrow-alt-circle-down mr-2"></i>
+              <strong>Dark!</strong> This is a Dark Alert!
+            </div>
+          </div>
+          <p class="mt-4 mb-4">
+            Alerts with Icon can be created using alert class, followed by the
+            variant name and the <code>i</code> element. It has six variants
+            alert-primary, alert-secondary, alert-success, alert-danger,
+            alert-warning and alert-dark. You can also use padding and margin
+            utilities classes to add margins and padding. For example, mr stands
+            for margin-right and pl stands for padding-left.
+          </p>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-paper-plane%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-paper-plane%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESecondary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Secondary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-dark%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-alt-circle-down%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EDark%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Dark%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
