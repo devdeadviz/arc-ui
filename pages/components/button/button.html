@@ -96,8 +96,9 @@
       <main class="main-content m-5 width-90">
         <h1 class="mb-4">Button</h1>
         <p class="mb-4">
-          Buttons are the soul of an interactive Web Application. Buttons allow
-          users to take actions, and make choices, with a single tap.
+          Buttons are used to perform actions that are called out and described
+          by text, an icon, or both. There are also text-only buttons that are
+          de-emphasized compared to a normal button.
         </p>
         <!-- Standard Buttons -->
         <div class="btn-wrapper">
@@ -113,7 +114,12 @@
             <button type="button" class="btn btn-dark m-2">Dark</button>
           </div>
           <p class="mt-4 mb-4">
-            Standard buttons contain actions that are primary to your app.
+            Standard buttons are used to emphasize the primary action on a page.
+            In some situations the primary action may be a positive or negative
+            action, in which case that button type would be the primary action.
+            For using these buttons in your codebase add <b>'btn'</b> and
+            <b>'.btn-variant'</b> classes in your button element and for the
+            addition of paddings and margins, you can use their utility classes.
           </p>
           <div class="code-wrapper">
             <iframe
@@ -145,8 +151,12 @@
             <button type="button" class="btn btn-outline-dark m-2">Dark</button>
           </div>
           <p class="mt-4 mb-4">
-            In need of a button, but not the background colors. Replace
-            <b>'.btn-variant'</b> with <b>'.btn-outline-variant'</b>.
+            Outlines Buttons are used to give an effective look at buttons, they
+            are used to make a button "Stand Out" etc. For using these buttons
+            in your codebase add <b>'btn'</b> and
+            <b>'.btn-outline-variant'</b> classes in your button element and for
+            the addition of paddings and margins, you can use their utility
+            classes.
           </p>
           <div class="code-wrapper">
             <iframe
@@ -177,7 +187,13 @@
             </a>
             <a role="button" class="btn btn-dark link-btn m-2" href="#">Dark</a>
           </div>
-          <p class="mt-4 mb-4">Link Button</p>
+          <p class="mt-4 mb-4">
+            Link Buttons are references to another page in the site, they are
+            used for navigation and actions that don't affect the website. For
+            using these buttons, just add these classes <b>'btn'</b>,
+            <b>'btn-variant'</b> and <b>'link-btn'</b> and for the addition of
+            padding and margins, you can use their utility classes.
+          </p>
           <div class="code-wrapper">
             <iframe
               src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253EPrimary%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253ESecondary%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253ESuccess%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-danger%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253EDanger%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-warning%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253EWarning%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-dark%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253EDark%253C%252Fa%253E"
@@ -189,7 +205,7 @@
         <!-- Icon Buttons -->
         <div class="btn-wrapper">
           <h2 class="mt-4 mb-4">Icon Buttons</h2>
-          <div class="link-btn-wrapper">
+          <div class="icon-btn-wrapper">
             <button type="button" class="btn btn-primary m-2">
               <i class="fas fa-shopping-cart mr-2"></i>
               Add to Cart
@@ -215,7 +231,12 @@
               Dark
             </button>
           </div>
-          <p class="mt-4 mb-4">Icon Button</p>
+          <p class="mt-4 mb-4">
+            Icon buttons allow users to take actions, and make choices, with a
+            single tap. For using these buttons, just add these classes
+            <b>'btn'</b>, <b>'btn-variant'</b> and <b>'link-btn'</b> and for the
+            addition of padding and margins, you can use their utility classes.
+          </p>
           <div class="code-wrapper">
             <iframe
               src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-paper-plane%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Secondary%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Success%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-danger%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Danger%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-warning%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Warning%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-dark%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-alt-circle-down%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Dark%250A%253C%252Fbutton%253E"
@@ -227,7 +248,7 @@
         <!-- Floating Buttons -->
         <div class="btn-wrapper">
           <h2 class="mt-4 mb-4">Floating Buttons</h2>
-          <div class="link-btn-wrapper">
+          <div class="float-btn-wrapper">
             <button type="button" class="btn btn-primary floating-btn m-2">
               <i class="fas fa-plus"></i>
             </button>
@@ -235,10 +256,25 @@
               <i class="fas fa-paper-plane"></i>
             </button>
           </div>
-          <p class="mt-4 mb-4">Floating Button</p>
+          <p class="mt-4 mb-4">
+            A floating action button (FAB) performs the primary, or most common,
+            action on a screen. It appears in front of all screen content,
+            typically as a circular shape with an icon in its center. For using
+            these buttons, just add these classes <b>'btn'</b>,
+            <b>'btn-variant'</b> or <b>'btn-outline-variant'</b> and
+            <b>'floating-btn'</b> and for the addition of padding and margins,
+            you can use their utility classes.
+          </p>
           <div class="code-wrapper">
             <iframe
               src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520floating-btn%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520floating-btn%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+              style="
+                width: 100%;
+                height: 187px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
               sandbox="allow-scripts allow-same-origin"
             >
             </iframe>
