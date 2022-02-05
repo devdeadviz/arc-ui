@@ -13,3 +13,7 @@ iframe {
 .width-90 {
   width: 90vw;
 }
+
+.pos-rel {
+  position: relative;
+}
