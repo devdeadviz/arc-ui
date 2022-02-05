@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Kuldeep Gupta" />
+    <link rel="icon" href="../../../assets/logo.png" type="image/icon type" />
+    <link rel="stylesheet" href="./card.css" />
+    <title>Cards</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
+        <h1><a class="header-heading" href="../../../index.html">Arc UI</a></h1>
+      </div>
+      <div class="header__nav">
+        <nav>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://twitter.com/devdeadviz"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://www.linkedin.com/in/devdeadviz/"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://github.com/devdeadviz"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="flex">
+      <aside class="drawer-wrapper">
+        <div class="drawer-header">
+          <h2 class="drawer-heading">Get Started</h2>
+        </div>
+        <hr />
+        <div class="drawer-options">
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/intro.html"
+          >
+            <p class="drawer-list-content">Introduction</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/color.html"
+          >
+            <p class="drawer-list-content">Colors</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/typo.html"
+          >
+            <p class="drawer-list-content">Typography</p>
+          </a>
+        </div>
+        <div class="drawer-header">
+          <h2 class="drawer-heading">Components</h2>
+        </div>
+        <hr />
+        <div class="drawer-options">
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../avatar/avatar.html"
+          >
+            <p class="drawer-list-content">Avatars</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../alert/alert.html"
+          >
+            <p class="drawer-list-content">Alert</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../badge/badge.html"
+          >
+            <p class="drawer-list-content">Badges</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../button/button.html"
+          >
+            <p class="drawer-list-content">Buttons</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../card/card.html"
+          >
+            <p class="drawer-list-content">Cards</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../image/image.html"
+          >
+            <p class="drawer-list-content">Image</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../input/input.html"
+          >
+            <p class="drawer-list-content">Input</p>
+          </a>
+        </div>
+      </aside>
+      <main class="main-content m-5 width-90">
+        <h1 class="mb-4">Cards</h1>
+        <p class="mb-4">
+          A card is container for a few short, related pieces of information.
+          This wireframed example of a card component features several different
+          types of information: an image, a title, a short summary, a time
+          stamp, a hashtag, and a secondary call-to-action button for social
+          media sharing.
+        </p>
+        <div class="card-wrapper">
+          <h2 class="mt-4 mb-4">Vertical Card</h2>
+          <div class="vertical-card-wrapper">
+            <div class="vertical-card-image-wrapper">
+              <img
+                class="responsive-image"
+                src="../../../assets/keyboard.jpg"
+                alt="Keyboard image"
+              />
+            </div>
+            <div class="vertical-card-header">
+              <h2 class="m-2">Keychron K6</h2>
+              <small class="mx-2">Blue Switches</small>
+            </div>
+            <div class="vertical-card-body my-4 mx-2">
+              <p>
+                The K6 has included keycaps for both Windows and Mac operating
+                systems. Hot-swappable version comes with Gateron switch
+                pre-installed.
+              </p>
+              <div class="vertical-card-price-wrapper mt-2">
+                <div class="mb-4">
+                  <span class="product-discount-price">Rs. 7,999.00</span>
+                  <span class="product-original-price ml-5">Rs. 9,438.82</span>
+                </div>
+                <span class="product-discount">Save 18%</span>
+              </div>
+            </div>
+            <div class="vertical-card-footer">
+              <button type="button" class="btn btn-primary add-btn">
+                <i class="fas fa-shopping-cart mr-2"></i>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card-wrapper">
+          <h2 class="mt-4 mb-4">Horizontal Card</h2>
+          <div class="horizontal-card-wrapper flex">
+            <div
+              class="horizontal-card-image-wrapper flex flexAlignItemsCenter"
+            >
+              <img
+                class="responsive-image px-2"
+                src="../../../assets/cloth.svg"
+                alt="cloth image"
+              />
+            </div>
+            <div class="card-body-wrapper flex flexCol">
+              <div class="horizontal-card-header">
+                <h2 class="my-3 mx-4">Men Premium Jacket</h2>
+              </div>
+              <div class="horizontal-card-price-wrapper flex flexCol my-4 mx-4">
+                <div>
+                  <span class="product-discount-price">Rs. 1,999.00</span>
+                  <span class="product-original-price mx-4">Rs. 5,000.00</span>
+                </div>
+                <span class="product-discount mt-4">Save 18%</span>
+              </div>
+              <div class="horizontal-card-footer m-5">
+                <button type="button" class="btn btn-primary add-btn">
+                  <i class="fas fa-shopping-cart mr-2"></i>
+                  Add to Cart
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary wishlist-btn mt-4"
+                >
+                  <i class="far fa-heart mr-2"></i>
+                  Save to Wishlist
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-wrapper">
+          <h2 class="mt-4 mb-4">Vertical Card with Badges</h2>
+          <div class="vertical-card-wrapper">
+            <div class="vertical-card-image-wrapper">
+              <img
+                class="responsive-image"
+                src="../../../assets/keyboard.jpg"
+                alt="Keyboard image"
+              />
+            </div>
+            <div class="vertical-card-header">
+              <h2 class="m-2">Keychron K6</h2>
+              <small class="mx-2">Blue Switches</small>
+            </div>
+            <div class="vertical-card-body my-4 mx-2">
+              <p>
+                The K6 has included keycaps for both Windows and Mac operating
+                systems. Hot-swappable version comes with Gateron switch
+                pre-installed.
+              </p>
+              <div class="vertical-card-price-wrapper mt-2">
+                <div class="mb-4">
+                  <span class="product-discount-price">Rs. 7,999.00</span>
+                  <span class="product-original-price ml-5">Rs. 9,438.82</span>
+                </div>
+                <span class="product-discount">Save 18%</span>
+              </div>
+            </div>
+            <div class="vertical-card-footer">
+              <button type="button" class="btn btn-primary add-btn">
+                <i class="fas fa-shopping-cart mr-2"></i>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card-wrapper">
+          <h2 class="mt-4 mb-4">Vertical Card with Dismiss</h2>
+          <div class="vertical-card-wrapper">
+            <div class="vertical-card-image-wrapper">
+              <img
+                class="responsive-image"
+                src="../../../assets/keyboard.jpg"
+                alt="Keyboard image"
+              />
+            </div>
+            <div class="vertical-card-header">
+              <h2 class="m-2">Keychron K6</h2>
+              <small class="mx-2">Blue Switches</small>
+            </div>
+            <div class="vertical-card-body my-4 mx-2">
+              <p>
+                The K6 has included keycaps for both Windows and Mac operating
+                systems. Hot-swappable version comes with Gateron switch
+                pre-installed.
+              </p>
+              <div class="vertical-card-price-wrapper mt-2">
+                <div class="mb-4">
+                  <span class="product-discount-price">Rs. 7,999.00</span>
+                  <span class="product-original-price ml-5">Rs. 9,438.82</span>
+                </div>
+                <span class="product-discount">Save 18%</span>
+              </div>
+            </div>
+            <div class="vertical-card-footer">
+              <button type="button" class="btn btn-primary add-btn">
+                <i class="fas fa-shopping-cart mr-2"></i>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card-wrapper">
+          <h2 class="mt-4 mb-4">Vertical Card with Text Overlay</h2>
+          <div class="vertical-card-wrapper">
+            <div class="vertical-card-image-wrapper">
+              <img
+                class="responsive-image"
+                src="../../../assets/keyboard.jpg"
+                alt="Keyboard image"
+              />
+            </div>
+            <div class="vertical-card-header">
+              <h2 class="m-2">Keychron K6</h2>
+              <small class="mx-2">Blue Switches</small>
+            </div>
+            <div class="vertical-card-body my-4 mx-2">
+              <p>
+                The K6 has included keycaps for both Windows and Mac operating
+                systems. Hot-swappable version comes with Gateron switch
+                pre-installed.
+              </p>
+              <div class="vertical-card-price-wrapper mt-2">
+                <div class="mb-4">
+                  <span class="product-discount-price">Rs. 7,999.00</span>
+                  <span class="product-original-price ml-5">Rs. 9,438.82</span>
+                </div>
+                <span class="product-discount">Save 18%</span>
+              </div>
+            </div>
+            <div class="vertical-card-footer">
+              <button type="button" class="btn btn-primary add-btn">
+                <i class="fas fa-shopping-cart mr-2"></i>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card-wrapper">
+          <h2 class="mt-4 mb-4">Text Only Card</h2>
+          <div class="vertical-card-wrapper">
+            <div class="vertical-card-header">
+              <h2 class="m-2">Keychron K6</h2>
+              <small class="mx-2">Blue Switches</small>
+            </div>
+            <div class="vertical-card-body my-4 mx-2">
+              <p>
+                The K6 has included keycaps for both Windows and Mac operating
+                systems. Hot-swappable version comes with Gateron switch
+                pre-installed.
+              </p>
+              <div class="vertical-card-price-wrapper mt-2">
+                <div class="mb-4">
+                  <span class="product-discount-price">Rs. 7,999.00</span>
+                  <span class="product-original-price ml-5">Rs. 9,438.82</span>
+                </div>
+                <span class="product-discount">Save 18%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
