@@ -43,3 +43,37 @@
   width: 35rem;
   border: 1px solid lightgray;
 }
+
+.vertical-card-badge-wrapper {
+  position: absolute;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  top: 0;
+  left: 0;
+}
+
+.dismiss-badge-wrapper {
+  position: absolute;
+  font-size: calc(2.5 * var(--default-font-size));
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  top: 5px;
+  right: 5px;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.out-stock-wrapper {
+  position: absolute;
+  color: var(--white-color);
+  background-color: #c3d8ec85;
+  font-size: calc(3 * var(--default-font-size));
+  width: 20rem;
+  height: 32.28rem;
+  top: 0;
+  text-align: center;
+  padding-top: 10rem;
+  font-weight: 900;
+}
