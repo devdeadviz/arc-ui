@@ -1,0 +1,50 @@
+@import "../../../styles/typography.css";
+@import "../../../styles/variable.css";
+@import "../../../styles/reset.css";
+@import "../../../styles/header.css";
+@import "../../../styles/drawer.css";
+@import "../../../styles/padding.css";
+@import "../../../styles/margin.css";
+@import "../../../styles/utils.css";
+
+.input-wrapper {
+  width: 30vw;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.text-input {
+  width: 20vw;
+  border: 2px solid lightgray;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.text-input:focus {
+  border: 2px solid var(--primary-color);
+}
+
+.error-input {
+  border: 2px solid var(--danger-color);
+}
+
+.warning-input {
+  border: 2px solid var(--warning-color);
+}
+
+.success-input {
+  border: 2px solid var(--success-color);
+}
+
+.error-input:focus {
+  border: 2px solid var(--danger-dark-color);
+}
+
+.warning-input:focus {
+  border: 2px solid var(--warning-dark-color);
+}
+
+.success-input:focus {
+  border: 2px solid var(--success-dark-color);
+}
