@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Kuldeep Gupta" />
+    <link rel="icon" href="../../../assets/logo.png" type="image/icon type" />
+    <link rel="stylesheet" href="./list.css" />
+    <title>Inputs</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
+        <h1><a class="header-heading" href="../../../index.html">Arc UI</a></h1>
+      </div>
+      <div class="header__nav">
+        <nav>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://twitter.com/devdeadviz"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://www.linkedin.com/in/devdeadviz/"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://github.com/devdeadviz"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="flex">
+      <aside class="drawer-wrapper">
+        <div class="drawer-header">
+          <h2 class="drawer-heading">Get Started</h2>
+        </div>
+        <hr />
+        <div class="drawer-options">
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/intro.html"
+          >
+            <p class="drawer-list-content">Introduction</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/color.html"
+          >
+            <p class="drawer-list-content">Colors</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/typo.html"
+          >
+            <p class="drawer-list-content">Typography</p>
+          </a>
+        </div>
+        <div class="drawer-header">
+          <h2 class="drawer-heading">Components</h2>
+        </div>
+        <hr />
+        <div class="drawer-options">
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../avatar/avatar.html"
+          >
+            <p class="drawer-list-content">Avatars</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../alert/alert.html"
+          >
+            <p class="drawer-list-content">Alert</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../badge/badge.html"
+          >
+            <p class="drawer-list-content">Badges</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../button/button.html"
+          >
+            <p class="drawer-list-content">Buttons</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../card/card.html"
+          >
+            <p class="drawer-list-content">Cards</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../image/image.html"
+          >
+            <p class="drawer-list-content">Image</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../input/input.html"
+          >
+            <p class="drawer-list-content">Input</p>
+          </a>
+        </div>
+      </aside>
+      <main class="main-content m-5 width-90">
+        <h1 class="mb-4">List</h1>
+        <p class="mb-4">A list is used to group related content.</p>
+        <div class="list-wrapper">
+          <h2 class="mt-4 mb-4">Stacked List</h2>
+          <ul class="wrapper">
+            <li class="list">Item 0</li>
+            <li class="list">Item 1</li>
+            <li class="list">Item 2</li>
+            <li class="list">Item 3</li>
+            <li class="list">Item 4</li>
+          </ul>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list%2522%253EItem%25200%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list%2522%253EItem%25203%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list%2522%253EItem%25204%253C%252Fli%253E%250A%253C%252Ful%253E"
+              style="
+                width: 274px;
+                height: 187px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="list-wrapper">
+          <h2 class="mt-4 mb-4">Spaced List</h2>
+          <ul class="wrapper">
+            <li class="list my-4">Item 0</li>
+            <li class="list my-4">Item 1</li>
+            <li class="list my-4">Item 2</li>
+            <li class="list my-4">Item 3</li>
+            <li class="list my-4">Item 4</li>
+          </ul>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2520my-4%2522%253EItem%25200%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2520my-4%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2520my-4%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2520my-4%2522%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2520my-4%2522%253EItem%25204%253C%252Fli%253E%250A%253C%252Ful%253E"
+              style="
+                width: 333px;
+                height: 187px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
