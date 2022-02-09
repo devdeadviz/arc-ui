@@ -75,6 +75,13 @@
 @media only screen and (max-width: 1010px) {
   .main-wrapper {
     flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem;
   }
-  
+
+  .content-image {
+    margin: 5rem 0;
+  }
+
 }
