@@ -1,0 +1,40 @@
+@import "../../../styles/typography.css";
+@import "../../../styles/variable.css";
+@import "../../../styles/reset.css";
+@import "../../../styles/header.css";
+@import "../../../styles/drawer.css";
+@import "../../../styles/padding.css";
+@import "../../../styles/margin.css";
+@import "../../../styles/utils.css";
+
+.toast-wrapper {
+  background: rgb(50, 50, 50);
+  padding: 1rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.toast-text {
+  color: var(--white-color);
+  font-weight: lighter;
+}
+
+.toast-btn {
+  position: relative;
+  background: transparent;
+  border: none;
+  color: var(--primary-color);
+  font-weight: 800;
+  padding: 0.5rem;
+  left: 10%;
+  cursor: pointer;
+}
+
+.toast-close-btn {
+  display: inline-block;
+  color: var(--white-color);
+  font-size: calc(2 * var(--default-font-size));
+  margin-left: 2rem;
+  cursor: pointer;
+}
