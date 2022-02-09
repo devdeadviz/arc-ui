@@ -1,291 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Kuldeep Gupta" />
-    <link rel="icon" href="../../../assets/logo.png" type="image/icon type" />
-    <link rel="stylesheet" href="./button.css" />
-    <title>Buttons</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header-wrapper">
-        <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
-        <h1><a class="header-heading" href="../../../index.html">Arc UI</a></h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Kuldeep Gupta" />
+  <link rel="icon" href="../../../assets/logo.png" type="image/icon type" />
+  <link rel="stylesheet" href="./button.css" />
+  <title>Buttons</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-wrapper">
+      <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
+      <h1><a class="header-heading" href="../../../index.html">Arc UI</a></h1>
+    </div>
+    <div class="header__nav">
+      <nav>
+        <ul>
+          <li>
+            <a target="_blank" class="social-icons-wrapper" href="https://twitter.com/devdeadviz">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" class="social-icons-wrapper" href="https://www.linkedin.com/in/devdeadviz/">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" class="social-icons-wrapper" href="https://github.com/devdeadviz">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="flex">
+    <aside class="drawer-wrapper">
+      <div class="drawer-header">
+        <h2 class="drawer-heading">Get Started</h2>
       </div>
-      <div class="header__nav">
-        <nav>
-          <ul>
-            <li>
-              <a
-                target="_blank"
-                class="social-icons-wrapper"
-                href="https://twitter.com/devdeadviz"
-              >
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                class="social-icons-wrapper"
-                href="https://www.linkedin.com/in/devdeadviz/"
-              >
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                class="social-icons-wrapper"
-                href="https://github.com/devdeadviz"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-            </li>
-          </ul>
-        </nav>
+      <hr />
+      <div class="drawer-options">
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/intro.html">
+          <p class="drawer-list-content">Introduction</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/color.html">
+          <p class="drawer-list-content">Colors</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/typo.html">
+          <p class="drawer-list-content">Typography</p>
+        </a>
       </div>
-    </header>
-    <div class="flex">
-      <aside class="drawer-wrapper">
-        <div class="drawer-header">
-          <h2 class="drawer-heading">Get Started</h2>
+      <div class="drawer-header">
+        <h2 class="drawer-heading">Components</h2>
+      </div>
+      <hr />
+      <div class="drawer-options">
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../alert/alert.html">
+          <p class="drawer-list-content">Alert</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../avatar/avatar.html">
+          <p class="drawer-list-content">Avatars</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../badge/badge.html">
+          <p class="drawer-list-content">Badges</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../button/button.html">
+          <p class="drawer-list-content">Buttons</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../card/card.html">
+          <p class="drawer-list-content">Cards</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../grid/grid.html">
+          <p class="drawer-list-content">Grid</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../image/image.html">
+          <p class="drawer-list-content">Image</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../input/input.html">
+          <p class="drawer-list-content">Input</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../list/list.html">
+          <p class="drawer-list-content">List</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../modal/modal.html">
+          <p class="drawer-list-content">Modal</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../navigation/navigation.html">
+          <p class="drawer-list-content">Navigation</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../rating/rating.html">
+          <p class="drawer-list-content">Rating</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../toast/toast.html">
+          <p class="drawer-list-content">Toast</p>
+        </a>
+      </div>
+    </aside>
+    <main class="main-content m-5 width-90">
+      <h1 class="mb-4">Button</h1>
+      <p class="mb-4">
+        Buttons are used to perform actions that are called out and described
+        by text, an icon, or both. There are also text-only buttons that are
+        de-emphasized compared to a normal button.
+      </p>
+      <!-- Standard Buttons -->
+      <div class="btn-wrapper">
+        <h2 class="mt-4 mb-4">Standard Buttons</h2>
+        <div class="standard-btn-wrapper">
+          <button type="button" class="btn btn-primary m-2">Primary</button>
+          <button type="button" class="btn btn-secondary m-2">
+            Secondary
+          </button>
+          <button type="button" class="btn btn-success m-2">Success</button>
+          <button type="button" class="btn btn-danger m-2">Danger</button>
+          <button type="button" class="btn btn-warning m-2">Warning</button>
+          <button type="button" class="btn btn-dark m-2">Dark</button>
         </div>
-        <hr />
-        <div class="drawer-options">
-          <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/intro.html">
-            <p class="drawer-list-content">Introduction</p>
-          </a>
-          <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/color.html">
-            <p class="drawer-list-content">Colors</p>
-          </a>
-          <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/typo.html">
-            <p class="drawer-list-content">Typography</p>
-          </a>
-        </div>
-        <div class="drawer-header">
-          <h2 class="drawer-heading">Components</h2>
-        </div>
-        <hr />
-        <div class="drawer-options">
-          <a class="drawer-lists flex flexAlignItemsCenter" href="../avatar/avatar.html">
-            <p class="drawer-list-content">Avatars</p>
-          </a>
-          <a class="drawer-lists flex flexAlignItemsCenter" href="../alert/alert.html">
-            <p class="drawer-list-content">Alert</p>
-          </a>
-          <a class="drawer-lists flex flexAlignItemsCenter" href="../badge/badge.html">
-            <p class="drawer-list-content">Badges</p>
-          </a>
-          <a class="drawer-lists flex flexAlignItemsCenter" href="../button/button.html">
-            <p class="drawer-list-content">Buttons</p>
-          </a>
-          <a class="drawer-lists flex flexAlignItemsCenter" href="../card/card.html">
-            <p class="drawer-list-content">Cards</p>
-          </a>
-          <a class="drawer-lists flex flexAlignItemsCenter" href="../image/image.html">
-            <p class="drawer-list-content">Image</p>
-          </a>
-          <a class="drawer-lists flex flexAlignItemsCenter" href="../input/input.html">
-            <p class="drawer-list-content">Input</p>
-          </a>
-        </div>
-      </aside>
-      <main class="main-content m-5 width-90">
-        <h1 class="mb-4">Button</h1>
-        <p class="mb-4">
-          Buttons are used to perform actions that are called out and described
-          by text, an icon, or both. There are also text-only buttons that are
-          de-emphasized compared to a normal button.
+        <p class="mt-4 mb-4">
+          Standard buttons are used to emphasize the primary action on a page.
+          In some situations the primary action may be a positive or negative
+          action, in which case that button type would be the primary action.
+          For using these buttons in your codebase add <b>'btn'</b> and
+          <b>'.btn-variant'</b> classes in your button element and for the
+          addition of paddings and margins, you can use their utility classes.
         </p>
-        <!-- Standard Buttons -->
-        <div class="btn-wrapper">
-          <h2 class="mt-4 mb-4">Standard Buttons</h2>
-          <div class="standard-btn-wrapper">
-            <button type="button" class="btn btn-primary m-2">Primary</button>
-            <button type="button" class="btn btn-secondary m-2">
-              Secondary
-            </button>
-            <button type="button" class="btn btn-success m-2">Success</button>
-            <button type="button" class="btn btn-danger m-2">Danger</button>
-            <button type="button" class="btn btn-warning m-2">Warning</button>
-            <button type="button" class="btn btn-dark m-2">Dark</button>
-          </div>
-          <p class="mt-4 mb-4">
-            Standard buttons are used to emphasize the primary action on a page.
-            In some situations the primary action may be a positive or negative
-            action, in which case that button type would be the primary action.
-            For using these buttons in your codebase add <b>'btn'</b> and
-            <b>'.btn-variant'</b> classes in your button element and for the
-            addition of paddings and margins, you can use their utility classes.
-          </p>
-          <div class="code-wrapper">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520m-2%2522%253EPrimary%253C%252Fbutton%253E%250A%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2520m-2%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2520m-2%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-danger%2520m-2%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-warning%2520m-2%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-dark%2520m-2%2522%253EDark%253C%252Fbutton%253E"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
+        <div class="code-wrapper">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520m-2%2522%253EPrimary%253C%252Fbutton%253E%250A%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2520m-2%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2520m-2%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-danger%2520m-2%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-warning%2520m-2%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-dark%2520m-2%2522%253EDark%253C%252Fbutton%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
         </div>
-        <!-- Outline Buttons -->
-        <div class="btn-wrapper">
-          <h2 class="mt-4 mb-4">Outline Buttons</h2>
-          <div class="outline-btn-wrapper">
-            <button type="button" class="btn btn-outline-primary m-2">
-              Primary
-            </button>
-            <button type="button" class="btn btn-outline-secondary m-2">
-              Secondary
-            </button>
-            <button type="button" class="btn btn-outline-success m-2">
-              Success
-            </button>
-            <button type="button" class="btn btn-outline-danger m-2">
-              Danger
-            </button>
-            <button type="button" class="btn btn-outline-warning m-2">
-              Warning
-            </button>
-            <button type="button" class="btn btn-outline-dark m-2">Dark</button>
-          </div>
-          <p class="mt-4 mb-4">
-            Outlines Buttons are used to give an effective look at buttons, they
-            are used to make a button "Stand Out" etc. For using these buttons
-            in your codebase add <b>'btn'</b> and
-            <b>'.btn-outline-variant'</b> classes in your button element and for
-            the addition of paddings and margins, you can use their utility
-            classes.
-          </p>
-          <div class="code-wrapper">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-primary%2520m-2%2522%253EPrimary%253C%252Fbutton%253E%250A%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-secondary%2520m-2%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-success%2520m-2%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-danger%2520m-2%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-warning%2520m-2%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-dark%2520m-2%2522%253EDark%253C%252Fbutton%253E"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
+      </div>
+      <!-- Outline Buttons -->
+      <div class="btn-wrapper">
+        <h2 class="mt-4 mb-4">Outline Buttons</h2>
+        <div class="outline-btn-wrapper">
+          <button type="button" class="btn btn-outline-primary m-2">
+            Primary
+          </button>
+          <button type="button" class="btn btn-outline-secondary m-2">
+            Secondary
+          </button>
+          <button type="button" class="btn btn-outline-success m-2">
+            Success
+          </button>
+          <button type="button" class="btn btn-outline-danger m-2">
+            Danger
+          </button>
+          <button type="button" class="btn btn-outline-warning m-2">
+            Warning
+          </button>
+          <button type="button" class="btn btn-outline-dark m-2">Dark</button>
         </div>
-        <!-- link Buttons -->
-        <div class="btn-wrapper">
-          <h2 class="mt-4 mb-4">Link Buttons</h2>
-          <div class="link-btn-wrapper pt-4 pb-4">
-            <a role="button" class="btn btn-primary link-btn m-2" href="#">
-              Primary
-            </a>
-            <a role="button" class="btn btn-secondary link-btn m-2" href="#">
-              Secondary
-            </a>
-            <a role="button" class="btn btn-success link-btn m-2" href="#">
-              Success
-            </a>
-            <a role="button" class="btn btn-danger link-btn m-2" href="#">
-              Danger
-            </a>
-            <a role="button" class="btn btn-warning link-btn m-2" href="#">
-              Warning
-            </a>
-            <a role="button" class="btn btn-dark link-btn m-2" href="#">Dark</a>
-          </div>
-          <p class="mt-4 mb-4">
-            Link Buttons are references to another page in the site, they are
-            used for navigation and actions that don't affect the website. For
-            using these buttons, just add these classes <b>'btn'</b>,
-            <b>'btn-variant'</b> and <b>'link-btn'</b> and for the addition of
-            padding and margins, you can use their utility classes.
-          </p>
-          <div class="code-wrapper">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253EPrimary%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253ESecondary%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253ESuccess%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-danger%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253EDanger%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-warning%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253EWarning%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-dark%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253EDark%253C%252Fa%253E"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
+        <p class="mt-4 mb-4">
+          Outlines Buttons are used to give an effective look at buttons, they
+          are used to make a button "Stand Out" etc. For using these buttons
+          in your codebase add <b>'btn'</b> and
+          <b>'.btn-outline-variant'</b> classes in your button element and for
+          the addition of paddings and margins, you can use their utility
+          classes.
+        </p>
+        <div class="code-wrapper">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-primary%2520m-2%2522%253EPrimary%253C%252Fbutton%253E%250A%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-secondary%2520m-2%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-success%2520m-2%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-danger%2520m-2%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-warning%2520m-2%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-dark%2520m-2%2522%253EDark%253C%252Fbutton%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
         </div>
-        <!-- Icon Buttons -->
-        <div class="btn-wrapper">
-          <h2 class="mt-4 mb-4">Icon Buttons</h2>
-          <div class="icon-btn-wrapper">
-            <button type="button" class="btn btn-primary m-2">
-              <i class="fas fa-shopping-cart mr-2"></i>
-              Add to Cart
-            </button>
-            <button type="button" class="btn btn-secondary m-2">
-              <i class="far fa-paper-plane mr-2"></i>
-              Secondary
-            </button>
-            <button type="button" class="btn btn-success m-2">
-              <i class="fas fa-check-circle mr-2"></i>
-              Success
-            </button>
-            <button type="button" class="btn btn-danger m-2">
-              <i class="fas fa-exclamation-triangle mr-2"></i>
-              Danger
-            </button>
-            <button type="button" class="btn btn-warning m-2">
-              <i class="fas fa-exclamation-triangle mr-2"></i>
-              Warning
-            </button>
-            <button type="button" class="btn btn-dark m-2">
-              <i class="fas fa-arrow-alt-circle-down mr-2"></i>
-              Dark
-            </button>
-          </div>
-          <p class="mt-4 mb-4">
-            Icon buttons allow users to take actions, and make choices, with a
-            single tap. For using these buttons, just add these classes
-            <b>'btn'</b>, <b>'btn-variant'</b> and <b>'link-btn'</b> and for the
-            addition of padding and margins, you can use their utility classes.
-          </p>
-          <div class="code-wrapper">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-paper-plane%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Secondary%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Success%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-danger%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Danger%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-warning%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Warning%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-dark%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-alt-circle-down%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Dark%250A%253C%252Fbutton%253E"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
+      </div>
+      <!-- link Buttons -->
+      <div class="btn-wrapper">
+        <h2 class="mt-4 mb-4">Link Buttons</h2>
+        <div class="link-btn-wrapper pt-4 pb-4">
+          <a role="button" class="btn btn-primary link-btn m-2" href="#">
+            Primary
+          </a>
+          <a role="button" class="btn btn-secondary link-btn m-2" href="#">
+            Secondary
+          </a>
+          <a role="button" class="btn btn-success link-btn m-2" href="#">
+            Success
+          </a>
+          <a role="button" class="btn btn-danger link-btn m-2" href="#">
+            Danger
+          </a>
+          <a role="button" class="btn btn-warning link-btn m-2" href="#">
+            Warning
+          </a>
+          <a role="button" class="btn btn-dark link-btn m-2" href="#">Dark</a>
         </div>
-        <!-- Floating Buttons -->
-        <div class="btn-wrapper">
-          <h2 class="mt-4 mb-4">Floating Buttons</h2>
-          <div class="float-btn-wrapper">
-            <button type="button" class="btn btn-primary floating-btn m-2">
-              <i class="fas fa-plus"></i>
+        <p class="mt-4 mb-4">
+          Link Buttons are references to another page in the site, they are
+          used for navigation and actions that don't affect the website. For
+          using these buttons, just add these classes <b>'btn'</b>,
+          <b>'btn-variant'</b> and <b>'link-btn'</b> and for the addition of
+          padding and margins, you can use their utility classes.
+        </p>
+        <div class="code-wrapper">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253EPrimary%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253ESecondary%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253ESuccess%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-danger%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253EDanger%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-warning%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253EWarning%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520btn-dark%2520link-btn%2520m-2%2522%2520href%253D%2522%2523%2522%253EDark%253C%252Fa%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      </div>
+      <!-- Icon Buttons -->
+      <div class="btn-wrapper">
+        <h2 class="mt-4 mb-4">Icon Buttons</h2>
+        <div class="icon-btn-wrapper">
+          <button type="button" class="btn btn-primary m-2">
+            <i class="fas fa-shopping-cart mr-2"></i>
+            Add to Cart
+          </button>
+          <button type="button" class="btn btn-secondary m-2">
+            <i class="far fa-paper-plane mr-2"></i>
+            Secondary
+          </button>
+          <button type="button" class="btn btn-success m-2">
+            <i class="fas fa-check-circle mr-2"></i>
+            Success
+          </button>
+          <button type="button" class="btn btn-danger m-2">
+            <i class="fas fa-exclamation-triangle mr-2"></i>
+            Danger
+          </button>
+          <button type="button" class="btn btn-warning m-2">
+            <i class="fas fa-exclamation-triangle mr-2"></i>
+            Warning
+          </button>
+          <button type="button" class="btn btn-dark m-2">
+            <i class="fas fa-arrow-alt-circle-down mr-2"></i>
+            Dark
+          </button>
+        </div>
+        <p class="mt-4 mb-4">
+          Icon buttons allow users to take actions, and make choices, with a
+          single tap. For using these buttons, just add these classes
+          <b>'btn'</b>, <b>'btn-variant'</b> and <b>'link-btn'</b> and for the
+          addition of padding and margins, you can use their utility classes.
+        </p>
+        <div class="code-wrapper">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-paper-plane%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Secondary%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Success%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-danger%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Danger%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-warning%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Warning%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-dark%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-alt-circle-down%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Dark%250A%253C%252Fbutton%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      </div>
+      <!-- Floating Buttons -->
+      <div class="btn-wrapper">
+        <h2 class="mt-4 mb-4">Floating Buttons</h2>
+        <div class="float-btn-wrapper">
+          <button type="button" class="btn btn-primary floating-btn m-2">
+            <i class="fas fa-plus"></i>
+          </button>
+          <button type="button" class="btn btn-primary floating-btn m-2">
+            <i class="fas fa-paper-plane"></i>
+            <button type="button" class="btn btn-outline-dark floating-btn m-2">
+              <i class="fas fa-arrow-alt-circle-down"></i>
             </button>
-            <button type="button" class="btn btn-primary floating-btn m-2">
-              <i class="fas fa-paper-plane"></i>
-              <button type="button" class="btn btn-outline-dark floating-btn m-2">
-                <i class="fas fa-arrow-alt-circle-down"></i>
-              </button>
-              <button type="button" class="btn btn-outline-danger floating-btn m-2">
-                <i class="fas fa-exclamation-triangle"></i>
-              </button>
-          </div>
-          <p class="mt-4 mb-4">
-            A floating action button (FAB) performs the primary, or most common,
-            action on a screen. It appears in front of all screen content,
-            typically as a circular shape with an icon in its center. For using
-            these buttons, just add these classes <b>'btn'</b>,
-            <b>'btn-variant'</b> or <b>'btn-outline-variant'</b> and
-            <b>'floating-btn'</b> and for the addition of padding and margins,
-            you can use their utility classes.
-          </p>
-          <div class="code-wrapper">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520floating-btn%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520floating-btn%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
-              style="
+            <button type="button" class="btn btn-outline-danger floating-btn m-2">
+              <i class="fas fa-exclamation-triangle"></i>
+            </button>
+        </div>
+        <p class="mt-4 mb-4">
+          A floating action button (FAB) performs the primary, or most common,
+          action on a screen. It appears in front of all screen content,
+          typically as a circular shape with an icon in its center. For using
+          these buttons, just add these classes <b>'btn'</b>,
+          <b>'btn-variant'</b> or <b>'btn-outline-variant'</b> and
+          <b>'floating-btn'</b> and for the addition of padding and margins,
+          you can use their utility classes.
+        </p>
+        <div class="code-wrapper">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520floating-btn%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520floating-btn%2520m-2%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+            style="
                 width: 100%;
                 height: 187px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
         </div>
-      </main>
-    </div>
-  </body>
+      </div>
+    </main>
+  </div>
+</body>
+
 </html>

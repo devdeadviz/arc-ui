@@ -1,214 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Kuldeep Gupta" />
-    <link rel="stylesheet" href="../../styles/typography.css" />
-    <link rel="icon" href="../../assets/logo.png" type="image/icon type" />
-    <title>Typography</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header-wrapper">
-        <img class="logo" src="../../assets/logo.png" alt="Arc UI Logo" />
-        <h1><a class="header-heading" href="../../index.html">Arc UI</a></h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Kuldeep Gupta" />
+  <link rel="stylesheet" href="../../styles/typography.css" />
+  <link rel="icon" href="../../assets/logo.png" type="image/icon type" />
+  <title>Typography</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-wrapper">
+      <img class="logo" src="../../assets/logo.png" alt="Arc UI Logo" />
+      <h1><a class="header-heading" href="../../index.html">Arc UI</a></h1>
+    </div>
+    <div class="header__nav">
+      <nav>
+        <ul>
+          <li>
+            <a target="_blank" class="social-icons-wrapper" href="https://twitter.com/devdeadviz"><i
+                class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a target="_blank" class="social-icons-wrapper" href="https://www.linkedin.com/in/devdeadviz/">
+              <i class="fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a target="_blank" class="social-icons-wrapper" href="https://github.com/devdeadviz"><i
+                class="fab fa-github"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="flex">
+    <aside class="drawer-wrapper">
+      <div class="drawer-header">
+        <h2 class="drawer-heading">Get Started</h2>
       </div>
-      <div class="header__nav">
-        <nav>
-          <ul>
-            <li>
-              <a
-                target="_blank"
-                class="social-icons-wrapper"
-                href="https://twitter.com/devdeadviz"
-                ><i class="fab fa-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                class="social-icons-wrapper"
-                href="https://www.linkedin.com/in/devdeadviz/"
-              >
-                <i class="fab fa-linkedin"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                class="social-icons-wrapper"
-                href="https://github.com/devdeadviz"
-                ><i class="fab fa-github"></i
-              ></a>
-            </li>
-          </ul>
-        </nav>
+      <hr />
+      <div class="drawer-options">
+        <a class="drawer-lists flex flexAlignItemsCenter" href="./intro.html">
+          <p class="drawer-list-content">Introduction</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="#">
+          <p class="drawer-list-content">Colors</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="./typo.html">
+          <p class="drawer-list-content">Typography</p>
+        </a>
       </div>
-    </header>
-    <div class="flex">
-      <aside class="drawer-wrapper">
-        <div class="drawer-header">
-          <h2 class="drawer-heading">Get Started</h2>
+      <div class="drawer-header">
+        <h2 class="drawer-heading">Components</h2>
+      </div>
+      <hr />
+      <div class="drawer-options">
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../components/alert/alert.html">
+          <p class="drawer-list-content">Alert</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../components/avatar/avatar.html">
+          <p class="drawer-list-content">Avatars</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../components/badge/badge.html">
+          <p class="drawer-list-content">Badges</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../components/button/button.html">
+          <p class="drawer-list-content">Buttons</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../components/card/card.html">
+          <p class="drawer-list-content">Cards</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../components/grid/grid.html">
+          <p class="drawer-list-content">Grid</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../components/image/image.html">
+          <p class="drawer-list-content">Image</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../components/input/input.html">
+          <p class="drawer-list-content">Input</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../components/list/list.html">
+          <p class="drawer-list-content">List</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../components/modal/modal.html">
+          <p class="drawer-list-content">Modal</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../components/navigation/navigation.html">
+          <p class="drawer-list-content">Navigation</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../components/rating/rating.html">
+          <p class="drawer-list-content">Rating</p>
+        </a>
+        <a class="drawer-lists flex flexAlignItemsCenter" href="../components/toast/toast.html">
+          <p class="drawer-list-content">Toast</p>
+        </a>
+      </div>
+    </aside>
+    <main class="main-content width-90">
+      <h1 class="typo-heading p-5">Typography</h1>
+      <p class="typo-desc pb-5 pl-5 pr-5">
+        Typography is the art and technique of arranging type to make written
+        language legible, readable and appealing when displayed.
+      </p>
+      <div class="typography-wrapper">
+        <h2 class="px-5">Heading Text Utilities</h2>
+        <div class="heading-wrapper px-5">
+          <h1 class="h1">H1 text</h1>
+          <h2 class="h2">H2 text</h2>
+          <h3 class="h3">H3 text</h3>
+          <h4 class="h4">H4 text</h4>
+          <h5 class="h5">H5 text</h5>
+          <h6 class="h6">H6 text</h6>
         </div>
-        <hr />
-        <div class="drawer-options">
-          <a class="drawer-lists flex flexAlignItemsCenter" href="./intro.html">
-            <p class="drawer-list-content">Introduction</p>
-          </a>
-          <a class="drawer-lists flex flexAlignItemsCenter" href="#">
-            <p class="drawer-list-content">Colors</p>
-          </a>
-          <a class="drawer-lists flex flexAlignItemsCenter" href="#">
-            <p class="drawer-list-content">Typography</p>
-          </a>
-        </div>
-        <div class="drawer-header">
-          <h2 class="drawer-heading">Components</h2>
-        </div>
-        <hr />
-        <div class="drawer-options">
-          <a
-            class="drawer-lists flex flexAlignItemsCenter"
-            href="../components/avatar/avatar.html"
-          >
-            <p class="drawer-list-content">Avatars</p>
-          </a>
-          <a
-            class="drawer-lists flex flexAlignItemsCenter"
-            href="../components/alert/alert.html"
-          >
-            <p class="drawer-list-content">Alert</p>
-          </a>
-          <a
-            class="drawer-lists flex flexAlignItemsCenter"
-            href="../components/badge/badge.html"
-          >
-            <p class="drawer-list-content">Badges</p>
-          </a>
-          <a
-            class="drawer-lists flex flexAlignItemsCenter"
-            href="../components/button/button.html"
-          >
-            <p class="drawer-list-content">Buttons</p>
-          </a>
-          <a
-            class="drawer-lists flex flexAlignItemsCenter"
-            href="../components/card/card.html"
-          >
-            <p class="drawer-list-content">Cards</p>
-          </a>
-          <a
-            class="drawer-lists flex flexAlignItemsCenter"
-            href="../components/image/image.html"
-          >
-            <p class="drawer-list-content">Image</p>
-          </a>
-          <a
-            class="drawer-lists flex flexAlignItemsCenter"
-            href="../components/input/input.html"
-          >
-            <p class="drawer-list-content">Input</p>
-          </a>
-        </div>
-      </aside>
-      <main class="main-content width-90">
-        <h1 class="typo-heading p-5">Typography</h1>
-        <p class="typo-desc pb-5 pl-5 pr-5">
-          Typography is the art and technique of arranging type to make written
-          language legible, readable and appealing when displayed.
-        </p>
-        <div class="typography-wrapper">
-          <h2 class="px-5">Heading Text Utilities</h2>
-          <div class="heading-wrapper px-5">
-            <h1 class="h1">H1 text</h1>
-            <h2 class="h2">H2 text</h2>
-            <h3 class="h3">H3 text</h3>
-            <h4 class="h4">H4 text</h4>
-            <h5 class="h5">H5 text</h5>
-            <h6 class="h6">H6 text</h6>
-          </div>
-          <div class="code-wrapper my-5">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522h1%2522%253EH1%2520text%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522h2%2522%253EH2%2520text%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522h3%2522%253EH3%2520text%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522h4%2522%253EH4%2520text%253C%252Fh4%253E%250A%253Ch5%2520class%253D%2522h5%2522%253EH5%2520text%253C%252Fh5%253E%250A%253Ch6%2520class%253D%2522h6%2522%253EH6%2520text%253C%252Fh6%253E"
-              style="
+        <div class="code-wrapper my-5">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522h1%2522%253EH1%2520text%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522h2%2522%253EH2%2520text%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522h3%2522%253EH3%2520text%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522h4%2522%253EH4%2520text%253C%252Fh4%253E%250A%253Ch5%2520class%253D%2522h5%2522%253EH5%2520text%253C%252Fh5%253E%250A%253Ch6%2520class%253D%2522h6%2522%253EH6%2520text%253C%252Fh6%253E"
+            style="
                 width: 25%;
                 height: 180px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
         </div>
-        <div class="typography-wrapper">
-          <h2 class="px-5">Text Utilities</h2>
-          <div class="text-wrapper px-5">
-            <p class="fs-1">fs-1 text</p>
-            <p class="fs-2">fs-2 text</p>
-            <p class="fs-3">fs-3 text</p>
-            <p class="fs-4">fs-4 text</p>
-            <p class="fs-5">fs-5 text</p>
-            <p class="fs-6">fs-6 text</p>
-          </div>
-          <div class="code-wrapper my-5">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522fs-1%2522%253Efs-1%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fs-2%2522%253Efs-2%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fs-3%2522%253Efs-3%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fs-4%2522%253Efs-4%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fs-5%2522%253Efs-5%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fs-6%2522%253Efs-6%2520text%253C%252Fp%253E"
-              style="
+      </div>
+      <div class="typography-wrapper">
+        <h2 class="px-5">Text Utilities</h2>
+        <div class="text-wrapper px-5">
+          <p class="fs-1">fs-1 text</p>
+          <p class="fs-2">fs-2 text</p>
+          <p class="fs-3">fs-3 text</p>
+          <p class="fs-4">fs-4 text</p>
+          <p class="fs-5">fs-5 text</p>
+          <p class="fs-6">fs-6 text</p>
+        </div>
+        <div class="code-wrapper my-5">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522fs-1%2522%253Efs-1%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fs-2%2522%253Efs-2%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fs-3%2522%253Efs-3%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fs-4%2522%253Efs-4%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fs-5%2522%253Efs-5%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fs-6%2522%253Efs-6%2520text%253C%252Fp%253E"
+            style="
                 width: 266px;
                 height: 169px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
         </div>
-        <div class="typography-wrapper">
-          <h2 class="px-5">Gray Text Utility</h2>
-          <div class="gray-text-wrapper px-5">
-            <p class="fs-1 text-gray">Learning with NeoG!</p>
-          </div>
-          <div class="code-wrapper my-5">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522fs-1%2520text-gray%2522%253ELearning%2520with%2520NeoG%21%253C%252Fp%253E"
-              style="
+      </div>
+      <div class="typography-wrapper">
+        <h2 class="px-5">Gray Text Utility</h2>
+        <div class="gray-text-wrapper px-5">
+          <p class="fs-1 text-gray">Learning with NeoG!</p>
+        </div>
+        <div class="code-wrapper my-5">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522fs-1%2520text-gray%2522%253ELearning%2520with%2520NeoG%21%253C%252Fp%253E"
+            style="
                 width: 434px;
                 height: 76px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
         </div>
-        <div class="typography-wrapper">
-          <h2 class="px-5">Text Center Utility</h2>
-          <div class="text-center-wrapper px-5">
-            <p class="fs-1 text-center">Learning with NeoG!</p>
-          </div>
-          <div class="code-wrapper my-5">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cp%2520class%253D%2522fs-1%2520text-center%2522%253ELearning%2520with%2520NeoG%21%253C%252Fp%253E"
-              style="
+      </div>
+      <div class="typography-wrapper">
+        <h2 class="px-5">Text Center Utility</h2>
+        <div class="text-center-wrapper px-5">
+          <p class="fs-1 text-center">Learning with NeoG!</p>
+        </div>
+        <div class="code-wrapper my-5">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cp%2520class%253D%2522fs-1%2520text-center%2522%253ELearning%2520with%2520NeoG%21%253C%252Fp%253E"
+            style="
                 width: 460px;
                 height: 76px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
         </div>
-      </main>
-    </div>
-  </body>
+      </div>
+    </main>
+  </div>
+</body>
+
 </html>
