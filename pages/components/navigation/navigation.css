@@ -6,3 +6,9 @@
 @import "../../../styles/padding.css";
 @import "../../../styles/margin.css";
 @import "../../../styles/utils.css";
+
+.navigation-header {
+    position: static;
+  width: 100%;
+  z-index: 0;
+}

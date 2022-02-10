@@ -14,7 +14,7 @@
   <header class="header">
     <div class="header-wrapper">
       <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
-      <h1><a class="header-heading" href="../../../index.html">Arc UI</a></h1>
+      <a class="header-heading" href="../../../index.html">Arc UI</a>
     </div>
     <div class="header__nav">
       <nav>
@@ -38,7 +38,7 @@
       </nav>
     </div>
   </header>
-  <div class="flex">
+  <div class="container">
     <aside class="drawer-wrapper">
       <div class="drawer-header">
         <h2 class="drawer-heading">Get Started</h2>
@@ -101,7 +101,7 @@
         </a>
       </div>
     </aside>
-    <main class="main-content m-5 width-90">
+    <main class="main-content">
       <h1 class="mb-4">Navigation</h1>
       <p class="mb-4">
         Nav bar displays the list of choices for the user avaible of the web
@@ -109,12 +109,10 @@
       </p>
       <div class="header-container">
         <h2 class="mt-4 mb-4">Standard Navigation</h2>
-        <header class="header">
+        <header class="header navigation-header">
           <div class="header-wrapper">
             <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
-            <h1>
-              <a class="header-heading" href="../../../index.html">Arc UI</a>
-            </h1>
+            <a class="header-heading" href="../../../index.html">Arc UI</a>
           </div>
           <div class="header__nav">
             <nav>
@@ -153,25 +151,28 @@
       </div>
       <div class="header-container">
         <h2 class="mt-4 mb-4">Standard Navigation without Icons</h2>
-        <header class="header">
+        <header class="header navigation-header">
           <div class="header-wrapper">
             <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
-            <h1>
-              <a class="header-heading" href="../../../index.html">Arc UI</a>
-            </h1>
+            <a class="header-heading" href="../../../index.html">Arc UI</a>
           </div>
           <div class="header__nav">
             <nav>
               <ul>
                 <li>
-                  <a class="social-links mx-4" href="#"> Home </a>
+                  <a class="social-links mx-4" href="#">
+                    <p>Home</p>
+                  </a>
                 </li>
                 <li>
-                  <a class="social-links mx-4" href="#"> Login </a>
+                  <a class="social-links mx-4" href="#">
+                    <p>Login</p>
+                  </a>
                 </li>
                 <li>
                   <a target="_blank" class="social-links mx-4" href="#">
-                    SignUp
+                    <p>SignUp</p>
+
                   </a>
                 </li>
               </ul>
@@ -193,7 +194,7 @@
       </div>
       <div class="header-container">
         <h2 class="mt-4 mb-4">Short Navigation</h2>
-        <header class="header short-header">
+        <header class="header navigation-header short-header">
           <div class="header-wrapper">
             <i class="fas fa-bars header-icons"></i>
           </div>

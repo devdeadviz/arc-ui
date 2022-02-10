@@ -1,8 +1,11 @@
+
 .header {
   background-color: var(--primary-color);
   display: flex;
-  flex-wrap: wrap;
-  color: #fff;
+  color: var(--white-color);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 .header-wrapper {
@@ -21,17 +24,11 @@
 
 .header-heading {
   text-decoration: none;
-  font-size: calc(1.15 * var(--default-font-size));
-  display: flex;
-  align-items: center;
-  color: #fff;
+  font-size: calc(2 * var(--default-font-size));
+  color: var(--white-color);
 }
 
 .header__nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   margin-left: auto;
 }
 
@@ -42,13 +39,17 @@
 }
 
 .social-icons-wrapper {
-  color: #fff;
+  color: var(--white-color);
 }
 
 .social-icons-wrapper i {
   font-size: 1.5rem;
   margin: 1.5rem;
   cursor: pointer;
+}
+
+.header__nav p {
+  margin: 0.8rem;
 }
 
 .social-links {
@@ -60,7 +61,7 @@
 
 .header-icons {
   font-size: 1.4rem;
-  color: white;
+  color: var(--white-color);
   margin: 1.5rem 1.5rem;
   cursor: pointer;
 }
