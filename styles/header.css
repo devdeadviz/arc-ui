@@ -3,6 +3,9 @@
   background-color: var(--primary-color);
   display: flex;
   color: var(--white-color);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 .header-wrapper {
