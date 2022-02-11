@@ -1,5 +1,4 @@
 @import "../../../styles/main.css";
-@import "../button/button.css";
 
 .modal-wrapper {
   border: 2px solid var(--dark-color);

@@ -1,6 +1,5 @@
 /* Importing external styles */
 @import "../../../styles/main.css";
-@import "../../components/avatar/avatar.css";
 
 .badge-wrapper {
   display: flex;

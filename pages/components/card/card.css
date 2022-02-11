@@ -1,7 +1,5 @@
 /* Importing external styles */
 @import "../../../styles/main.css";
-@import "../image/image.css";
-@import "../button/button.css";
 
 .vertical-card-wrapper {
   width: 20rem;
