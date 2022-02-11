@@ -1,228 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Kuldeep Gupta" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="../../../assets/logo.png" type="image/icon type" />
+    <link rel="stylesheet" href="./navigation.css" />
+    <title>Navigation</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="author" content="Kuldeep Gupta" />
-  <link rel="icon" href="../../../assets/logo.png" type="image/icon type" />
-  <link rel="stylesheet" href="./navigation.css" />
-  <title>Navigation</title>
-</head>
-
-<body>
-  <header class="header">
-    <div class="header-wrapper">
-      <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
-      <a class="header-heading" href="../../../index.html">Arc UI</a>
-    </div>
-    <div class="header__nav">
-      <nav>
-        <ul>
-          <li>
-            <a target="_blank" class="social-icons-wrapper" href="https://twitter.com/devdeadviz">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" class="social-icons-wrapper" href="https://www.linkedin.com/in/devdeadviz/">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" class="social-icons-wrapper" href="https://github.com/devdeadviz">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <div class="container">
-    <aside class="drawer-wrapper">
-      <div class="drawer-header">
-        <h2 class="drawer-heading">Get Started</h2>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
+        <a class="header-heading" href="../../../index.html">Arc UI</a>
       </div>
-      <hr />
-      <div class="drawer-options">
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/intro.html">
-          <p class="drawer-list-content">Introduction</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/color.html">
-          <p class="drawer-list-content">Colors</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/typo.html">
-          <p class="drawer-list-content">Typography</p>
-        </a>
+      <div class="header__nav">
+        <nav>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://twitter.com/devdeadviz"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://www.linkedin.com/in/devdeadviz/"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://github.com/devdeadviz"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <div class="drawer-header">
-        <h2 class="drawer-heading">Components</h2>
-      </div>
-      <hr />
-      <div class="drawer-options">
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../alert/alert.html">
-          <p class="drawer-list-content">Alert</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../avatar/avatar.html">
-          <p class="drawer-list-content">Avatars</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../badge/badge.html">
-          <p class="drawer-list-content">Badges</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../button/button.html">
-          <p class="drawer-list-content">Buttons</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../card/card.html">
-          <p class="drawer-list-content">Cards</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../grid/grid.html">
-          <p class="drawer-list-content">Grid</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../image/image.html">
-          <p class="drawer-list-content">Image</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../input/input.html">
-          <p class="drawer-list-content">Input</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../list/list.html">
-          <p class="drawer-list-content">List</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../modal/modal.html">
-          <p class="drawer-list-content">Modal</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../navigation/navigation.html">
-          <p class="drawer-list-content">Navigation</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../rating/rating.html">
-          <p class="drawer-list-content">Rating</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../toast/toast.html">
-          <p class="drawer-list-content">Toast</p>
-        </a>
-      </div>
-    </aside>
-    <main class="main-content">
-      <h1 class="mb-4">Navigation</h1>
-      <p class="mb-4">
-        Nav bar displays the list of choices for the user avaible of the web
-        page.
-      </p>
-      <div class="header-container">
-        <h2 class="mt-4 mb-4">Standard Navigation</h2>
-        <header class="header navigation-header">
-          <div class="header-wrapper">
-            <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
-            <a class="header-heading" href="../../../index.html">Arc UI</a>
-          </div>
-          <div class="header__nav">
-            <nav>
-              <ul>
-                <li>
-                  <a target="_blank" class="social-icons-wrapper" href="https://twitter.com/devdeadviz">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" class="social-icons-wrapper" href="https://www.linkedin.com/in/devdeadviz/">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" class="social-icons-wrapper" href="https://github.com/devdeadviz">
-                    <i class="fab fa-github"></i>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </header>
-        <div class="code-wrapper my-3">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522header%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522logo%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Flogo.png%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Arc%2520UI%2520Logo%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Ch1%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522header-heading%2522%2520href%253D%2522..%252F..%252F..%252Findex.html%2522%253EArc%2520UI%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fh1%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header__nav%2522%253E%250A%2520%2520%2520%2520%253Cnav%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520target%253D%2522_blank%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522social-icons-wrapper%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520href%253D%2522https%253A%252F%252Ftwitter.com%252Fdevdeadviz%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-twitter%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520target%253D%2522_blank%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522social-icons-wrapper%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520href%253D%2522https%253A%252F%252Fwww.linkedin.com%252Fin%252Fdevdeadviz%252F%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-linkedin%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520target%253D%2522_blank%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522social-icons-wrapper%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520href%253D%2522https%253A%252F%252Fgithub.com%252Fdevdeadviz%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-github%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E"
-            style="
+    </header>
+    <div class="container">
+      <aside class="drawer-wrapper">
+        <div class="drawer-header">
+          <h2 class="drawer-heading">Get Started</h2>
+        </div>
+        <hr />
+        <div class="drawer-options">
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/intro.html"
+          >
+            <p class="drawer-list-content">Introduction</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/color.html"
+          >
+            <p class="drawer-list-content">Colors</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/typo.html"
+          >
+            <p class="drawer-list-content">Typography</p>
+          </a>
+        </div>
+        <div class="drawer-header">
+          <h2 class="drawer-heading">Components</h2>
+        </div>
+        <hr />
+        <div class="drawer-options">
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../alert/alert.html"
+          >
+            <p class="drawer-list-content">Alert</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../avatar/avatar.html"
+          >
+            <p class="drawer-list-content">Avatars</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../badge/badge.html"
+          >
+            <p class="drawer-list-content">Badges</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../button/button.html"
+          >
+            <p class="drawer-list-content">Buttons</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../card/card.html"
+          >
+            <p class="drawer-list-content">Cards</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../grid/grid.html"
+          >
+            <p class="drawer-list-content">Grid</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../image/image.html"
+          >
+            <p class="drawer-list-content">Image</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../input/input.html"
+          >
+            <p class="drawer-list-content">Input</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../list/list.html"
+          >
+            <p class="drawer-list-content">List</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../modal/modal.html"
+          >
+            <p class="drawer-list-content">Modal</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../navigation/navigation.html"
+          >
+            <p class="drawer-list-content">Navigation</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../rating/rating.html"
+          >
+            <p class="drawer-list-content">Rating</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../toast/toast.html"
+          >
+            <p class="drawer-list-content">Toast</p>
+          </a>
+        </div>
+      </aside>
+      <main class="main-content">
+        <h1 class="mb-4">Navigation</h1>
+        <p class="mb-4">
+          Nav bar displays the list of choices for the user avaible of the web
+          page.
+        </p>
+        <div class="header-container">
+          <h2 class="mt-4 mb-4">Standard Navigation</h2>
+          <header class="header navigation-header">
+            <div class="header-wrapper">
+              <img
+                class="logo"
+                src="../../../assets/logo.png"
+                alt="Arc UI Logo"
+              />
+              <a class="header-heading" href="../../../index.html">Arc UI</a>
+            </div>
+            <div class="header__nav">
+              <nav>
+                <ul>
+                  <li>
+                    <a
+                      target="_blank"
+                      class="social-icons-wrapper"
+                      href="https://twitter.com/devdeadviz"
+                    >
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      class="social-icons-wrapper"
+                      href="https://www.linkedin.com/in/devdeadviz/"
+                    >
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      class="social-icons-wrapper"
+                      href="https://github.com/devdeadviz"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+          <div class="code-wrapper my-3">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522header%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522logo%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Flogo.png%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Arc%2520UI%2520Logo%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Ch1%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522header-heading%2522%2520href%253D%2522..%252F..%252F..%252Findex.html%2522%253EArc%2520UI%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fh1%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header__nav%2522%253E%250A%2520%2520%2520%2520%253Cnav%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520target%253D%2522_blank%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522social-icons-wrapper%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520href%253D%2522https%253A%252F%252Ftwitter.com%252Fdevdeadviz%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-twitter%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520target%253D%2522_blank%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522social-icons-wrapper%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520href%253D%2522https%253A%252F%252Fwww.linkedin.com%252Fin%252Fdevdeadviz%252F%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-linkedin%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520target%253D%2522_blank%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522social-icons-wrapper%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520href%253D%2522https%253A%252F%252Fgithub.com%252Fdevdeadviz%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-github%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E"
+              style="
                 width: 603px;
                 height: 894px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
-      </div>
-      <div class="header-container">
-        <h2 class="mt-4 mb-4">Standard Navigation without Icons</h2>
-        <header class="header navigation-header">
-          <div class="header-wrapper">
-            <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
-            <a class="header-heading" href="../../../index.html">Arc UI</a>
-          </div>
-          <div class="header__nav">
-            <nav>
-              <ul>
-                <li>
-                  <a class="social-links mx-4" href="#">
-                    <p>Home</p>
-                  </a>
-                </li>
-                <li>
-                  <a class="social-links mx-4" href="#">
-                    <p>Login</p>
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" class="social-links mx-4" href="#">
-                    <p>SignUp</p>
-
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </header>
-        <div class="code-wrapper my-3">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522header%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522logo%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Flogo.png%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Arc%2520UI%2520Logo%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Ch1%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522header-heading%2522%2520href%253D%2522..%252F..%252F..%252Findex.html%2522%253EArc%2520UI%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fh1%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header__nav%2522%253E%250A%2520%2520%2520%2520%253Cnav%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522social-links%2520mx-4%2522%2520href%253D%2522%2523%2522%253E%2520Home%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522social-links%2520mx-4%2522%2520href%253D%2522%2523%2522%253E%2520Login%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520target%253D%2522_blank%2522%2520class%253D%2522social-links%2520mx-4%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520SignUp%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E"
-            style="
+        <div class="header-container">
+          <h2 class="mt-4 mb-4">Standard Navigation without Icons</h2>
+          <header class="header navigation-header">
+            <div class="header-wrapper">
+              <img
+                class="logo"
+                src="../../../assets/logo.png"
+                alt="Arc UI Logo"
+              />
+              <a class="header-heading" href="../../../index.html">Arc UI</a>
+            </div>
+            <div class="header__nav">
+              <nav>
+                <ul>
+                  <li>
+                    <a class="social-links mx-4" href="#">
+                      <p>Home</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="social-links mx-4" href="#">
+                      <p>Login</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" class="social-links mx-4" href="#">
+                      <p>SignUp</p>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+          <div class="code-wrapper my-3">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522header%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522logo%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Flogo.png%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Arc%2520UI%2520Logo%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Ch1%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522header-heading%2522%2520href%253D%2522..%252F..%252F..%252Findex.html%2522%253EArc%2520UI%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fh1%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header__nav%2522%253E%250A%2520%2520%2520%2520%253Cnav%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522social-links%2520mx-4%2522%2520href%253D%2522%2523%2522%253E%2520Home%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522social-links%2520mx-4%2522%2520href%253D%2522%2523%2522%253E%2520Login%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520target%253D%2522_blank%2522%2520class%253D%2522social-links%2520mx-4%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520SignUp%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E"
+              style="
                 width: 603px;
                 height: 597px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
-      </div>
-      <div class="header-container">
-        <h2 class="mt-4 mb-4">Short Navigation</h2>
-        <header class="header navigation-header short-header">
-          <div class="header-wrapper">
-            <i class="fas fa-bars header-icons"></i>
-          </div>
-          <div class="header__nav">
-            <nav>
-              <ul>
-                <li>
-                  <i class="fas fa-arrow-alt-circle-down header-icons"></i>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </header>
-        <div class="code-wrapper my-3">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522header%2520short-header%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header-wrapper%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bars%2520header-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header__nav%2522%253E%250A%2520%2520%2520%2520%253Cnav%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-alt-circle-down%2520header-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E"
-            style="
+        <div class="header-container">
+          <h2 class="mt-4 mb-4">Short Navigation</h2>
+          <header class="header navigation-header short-header">
+            <div class="header-wrapper">
+              <i class="fas fa-bars header-icons"></i>
+            </div>
+            <div class="header__nav">
+              <nav>
+                <ul>
+                  <li>
+                    <i class="fas fa-arrow-alt-circle-down header-icons"></i>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+          <div class="code-wrapper my-3">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522header%2520short-header%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header-wrapper%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bars%2520header-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header__nav%2522%253E%250A%2520%2520%2520%2520%253Cnav%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-alt-circle-down%2520header-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E"
+              style="
                 width: 586px;
                 height: 318px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
-      </div>
-    </main>
-  </div>
-</body>
-
+      </main>
+    </div>
+  </body>
 </html>

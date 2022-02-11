@@ -1,454 +1,568 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Kuldeep Gupta" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="../../../assets/logo.png" type="image/icon type" />
+    <link rel="stylesheet" href="./card.css" />
+    <title>Cards</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="author" content="Kuldeep Gupta" />
-  <link rel="icon" href="../../../assets/logo.png" type="image/icon type" />
-  <link rel="stylesheet" href="./card.css" />
-  <title>Cards</title>
-</head>
-
-<body>
-  <header class="header">
-    <div class="header-wrapper">
-      <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
-      <a class="header-heading" href="../../../index.html">Arc UI</a>
-    </div>
-    <div class="header__nav">
-      <nav>
-        <ul>
-          <li>
-            <a target="_blank" class="social-icons-wrapper" href="https://twitter.com/devdeadviz">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" class="social-icons-wrapper" href="https://www.linkedin.com/in/devdeadviz/">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" class="social-icons-wrapper" href="https://github.com/devdeadviz">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <div class="container">
-    <aside class="drawer-wrapper">
-      <div class="drawer-header">
-        <h2 class="drawer-heading">Get Started</h2>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
+        <a class="header-heading" href="../../../index.html">Arc UI</a>
       </div>
-      <hr />
-      <div class="drawer-options">
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/intro.html">
-          <p class="drawer-list-content">Introduction</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/color.html">
-          <p class="drawer-list-content">Colors</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/typo.html">
-          <p class="drawer-list-content">Typography</p>
-        </a>
+      <div class="header__nav">
+        <nav>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://twitter.com/devdeadviz"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://www.linkedin.com/in/devdeadviz/"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://github.com/devdeadviz"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <div class="drawer-header">
-        <h2 class="drawer-heading">Components</h2>
-      </div>
-      <hr />
-      <div class="drawer-options">
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../alert/alert.html">
-          <p class="drawer-list-content">Alert</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../avatar/avatar.html">
-          <p class="drawer-list-content">Avatars</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../badge/badge.html">
-          <p class="drawer-list-content">Badges</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../button/button.html">
-          <p class="drawer-list-content">Buttons</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../card/card.html">
-          <p class="drawer-list-content">Cards</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../grid/grid.html">
-          <p class="drawer-list-content">Grid</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../image/image.html">
-          <p class="drawer-list-content">Image</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../input/input.html">
-          <p class="drawer-list-content">Input</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../list/list.html">
-          <p class="drawer-list-content">List</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../modal/modal.html">
-          <p class="drawer-list-content">Modal</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../navigation/navigation.html">
-          <p class="drawer-list-content">Navigation</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../rating/rating.html">
-          <p class="drawer-list-content">Rating</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../toast/toast.html">
-          <p class="drawer-list-content">Toast</p>
-        </a>
-      </div>
-    </aside>
-    <main class="main-content">
-      <h1 class="mb-4">Cards</h1>
-      <p class="mb-4">
-        A card is container for a few short, related pieces of information.
-        This wireframed example of a card component features several different
-        types of information: an image, a title, a short summary, a time
-        stamp, a hashtag, and a secondary call-to-action button for social
-        media sharing.
-      </p>
-      <div class="card-wrapper">
-        <h2 class="mt-4 mb-4">Vertical Card</h2>
-        <div class="vertical-card-wrapper">
-          <div class="vertical-card-image-wrapper">
-            <img class="responsive-image" src="../../../assets/keyboard.jpg" alt="Keyboard image" />
-          </div>
-          <div class="vertical-card-header">
-            <h2 class="m-2">Keychron K6</h2>
-            <small class="mx-2">Blue Switches</small>
-          </div>
-          <div class="vertical-card-body my-4 mx-2">
-            <p>
-              The K6 has included keycaps for both Windows and Mac operating
-              systems. Hot-swappable version comes with Gateron switch
-              pre-installed.
-            </p>
-            <div class="vertical-card-price-wrapper mt-2">
-              <div class="mb-4">
-                <span class="product-discount-price">Rs. 7,999.00</span>
-                <span class="product-original-price ml-5">Rs. 9,438.82</span>
+    </header>
+    <div class="container">
+      <aside class="drawer-wrapper">
+        <div class="drawer-header">
+          <h2 class="drawer-heading">Get Started</h2>
+        </div>
+        <hr />
+        <div class="drawer-options">
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/intro.html"
+          >
+            <p class="drawer-list-content">Introduction</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/color.html"
+          >
+            <p class="drawer-list-content">Colors</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/typo.html"
+          >
+            <p class="drawer-list-content">Typography</p>
+          </a>
+        </div>
+        <div class="drawer-header">
+          <h2 class="drawer-heading">Components</h2>
+        </div>
+        <hr />
+        <div class="drawer-options">
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../alert/alert.html"
+          >
+            <p class="drawer-list-content">Alert</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../avatar/avatar.html"
+          >
+            <p class="drawer-list-content">Avatars</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../badge/badge.html"
+          >
+            <p class="drawer-list-content">Badges</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../button/button.html"
+          >
+            <p class="drawer-list-content">Buttons</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../card/card.html"
+          >
+            <p class="drawer-list-content">Cards</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../grid/grid.html"
+          >
+            <p class="drawer-list-content">Grid</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../image/image.html"
+          >
+            <p class="drawer-list-content">Image</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../input/input.html"
+          >
+            <p class="drawer-list-content">Input</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../list/list.html"
+          >
+            <p class="drawer-list-content">List</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../modal/modal.html"
+          >
+            <p class="drawer-list-content">Modal</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../navigation/navigation.html"
+          >
+            <p class="drawer-list-content">Navigation</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../rating/rating.html"
+          >
+            <p class="drawer-list-content">Rating</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../toast/toast.html"
+          >
+            <p class="drawer-list-content">Toast</p>
+          </a>
+        </div>
+      </aside>
+      <main class="main-content">
+        <h1 class="mb-4">Cards</h1>
+        <p class="mb-4">
+          A card is container for a few short, related pieces of information.
+          This wireframed example of a card component features several different
+          types of information: an image, a title, a short summary, a time
+          stamp, a hashtag, and a secondary call-to-action button for social
+          media sharing.
+        </p>
+        <div class="card-wrapper">
+          <h2 class="mt-4 mb-4">Vertical Card</h2>
+          <div class="vertical-card-wrapper">
+            <div class="vertical-card-image-wrapper">
+              <img
+                class="responsive-image"
+                src="../../../assets/keyboard.jpg"
+                alt="Keyboard image"
+              />
+            </div>
+            <div class="vertical-card-header">
+              <h2 class="m-2">Keychron K6</h2>
+              <small class="mx-2">Blue Switches</small>
+            </div>
+            <div class="vertical-card-body my-4 mx-2">
+              <p>
+                The K6 has included keycaps for both Windows and Mac operating
+                systems. Hot-swappable version comes with Gateron switch
+                pre-installed.
+              </p>
+              <div class="vertical-card-price-wrapper mt-2">
+                <div class="mb-4">
+                  <span class="product-discount-price">Rs. 7,999.00</span>
+                  <span class="product-original-price ml-5">Rs. 9,438.82</span>
+                </div>
+                <span class="product-discount">Save 18%</span>
               </div>
-              <span class="product-discount">Save 18%</span>
+            </div>
+            <div class="vertical-card-footer">
+              <button type="button" class="btn btn-primary add-btn">
+                <i class="fas fa-shopping-cart mr-2"></i>
+                Add to Cart
+              </button>
             </div>
           </div>
-          <div class="vertical-card-footer">
-            <button type="button" class="btn btn-primary add-btn">
-              <i class="fas fa-shopping-cart mr-2"></i>
-              Add to Cart
-            </button>
-          </div>
-        </div>
-        <p class="my-4">
-          For using these vertical cards in your codebase use below code
-          snippets and for the addition of paddings and margins, you can use
-          their utility classes.
-        </p>
-        <div class="code-wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522vertical-card-wrapper%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-image-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522responsive-image%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Fkeyboard.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Keyboard%2520image%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522m-2%2522%253EKeychron%2520K6%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522mx-2%2522%253EBlue%2520Switches%253C%252Fsmall%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-body%2520my-4%2520mx-2%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520The%2520K6%2520has%2520included%2520keycaps%2520for%2520both%2520Windows%2520and%2520Mac%2520operating%250A%2520%2520%2520%2520%2520%2520systems.%2520Hot-swappable%2520version%2520comes%2520with%2520Gateron%2520switch%250A%2520%2520%2520%2520%2520%2520pre-installed.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-price-wrapper%2520mt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25207%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520ml-5%2522%253ERs.%25209%252C438.82%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-footer%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520add-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="
+          <p class="my-4">
+            For using these vertical cards in your codebase use below code
+            snippets and for the addition of paddings and margins, you can use
+            their utility classes.
+          </p>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522vertical-card-wrapper%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-image-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522responsive-image%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Fkeyboard.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Keyboard%2520image%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522m-2%2522%253EKeychron%2520K6%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522mx-2%2522%253EBlue%2520Switches%253C%252Fsmall%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-body%2520my-4%2520mx-2%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520The%2520K6%2520has%2520included%2520keycaps%2520for%2520both%2520Windows%2520and%2520Mac%2520operating%250A%2520%2520%2520%2520%2520%2520systems.%2520Hot-swappable%2520version%2520comes%2520with%2520Gateron%2520switch%250A%2520%2520%2520%2520%2520%2520pre-installed.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-price-wrapper%2520mt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25207%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520ml-5%2522%253ERs.%25209%252C438.82%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-footer%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520add-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
                 width: 620px;
                 height: 688px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
-      </div>
-      <div class="card-wrapper">
-        <h2 class="mt-4 mb-4">Horizontal Card</h2>
-        <div class="horizontal-card-wrapper flex">
-          <div class="horizontal-card-image-wrapper flex flexAlignItemsCenter">
-            <img class="responsive-image px-2" src="../../../assets/cloth.svg" alt="cloth image" />
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
           </div>
-          <div class="card-body-wrapper flex flexCol">
-            <div class="horizontal-card-header">
-              <h2 class="my-3 mx-4">Men Premium Jacket</h2>
+        </div>
+        <div class="card-wrapper">
+          <h2 class="mt-4 mb-4">Horizontal Card</h2>
+          <div class="horizontal-card-wrapper flex">
+            <div
+              class="horizontal-card-image-wrapper flex flexAlignItemsCenter"
+            >
+              <img
+                class="responsive-image px-2"
+                src="../../../assets/cloth.svg"
+                alt="cloth image"
+              />
             </div>
-            <div class="horizontal-card-price-wrapper flex flexCol my-4 mx-4">
-              <div>
-                <span class="product-discount-price">Rs. 1,999.00</span>
-                <span class="product-original-price mx-4">Rs. 5,000.00</span>
+            <div class="card-body-wrapper flex flexCol">
+              <div class="horizontal-card-header">
+                <h2 class="my-3 mx-4">Men Premium Jacket</h2>
               </div>
-              <span class="product-discount mt-4">Save 18%</span>
-            </div>
-            <div class="horizontal-card-footer m-5">
-              <button type="button" class="btn btn-primary add-btn">
-                <i class="fas fa-shopping-cart mr-2"></i>
-                Add to Cart
-              </button>
-              <button type="button" class="btn btn-outline-primary wishlist-btn mt-4">
-                <i class="fas fa-heart mr-2"></i>
-                Save to Wishlist
-              </button>
+              <div class="horizontal-card-price-wrapper flex flexCol my-4 mx-4">
+                <div>
+                  <span class="product-discount-price">Rs. 1,999.00</span>
+                  <span class="product-original-price mx-4">Rs. 5,000.00</span>
+                </div>
+                <span class="product-discount mt-4">Save 18%</span>
+              </div>
+              <div class="horizontal-card-footer m-5">
+                <button type="button" class="btn btn-primary add-btn">
+                  <i class="fas fa-shopping-cart mr-2"></i>
+                  Add to Cart
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary wishlist-btn mt-4"
+                >
+                  <i class="fas fa-heart mr-2"></i>
+                  Save to Wishlist
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-        <p class="my-4">
-          For using these horizontal cards in your codebase use below code
-          snippets and for the addition of paddings and margins, you can use
-          their utility classes.
-        </p>
-        <div class="code-wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522horizontal-card-wrapper%2520flex%2522%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522horizontal-card-image-wrapper%2520flex%2520flexAlignItemsCenter%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522responsive-image%2520px-2%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Fcloth.svg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cloth%2520image%2522%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body-wrapper%2520flex%2520flexCol%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522my-3%2520mx-4%2522%253EMen%2520Premium%2520Jacket%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-price-wrapper%2520flex%2520flexCol%2520my-4%2520mx-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25201%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520mx-4%2522%253ERs.%25205%252C000.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2520mt-4%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-footer%2520m-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520add-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522button%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522btn%2520btn-outline-primary%2520wishlist-btn%2520mt-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Save%2520to%2520Wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
-            style="
+          <p class="my-4">
+            For using these horizontal cards in your codebase use below code
+            snippets and for the addition of paddings and margins, you can use
+            their utility classes.
+          </p>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522horizontal-card-wrapper%2520flex%2522%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522horizontal-card-image-wrapper%2520flex%2520flexAlignItemsCenter%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522responsive-image%2520px-2%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Fcloth.svg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cloth%2520image%2522%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body-wrapper%2520flex%2520flexCol%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522my-3%2520mx-4%2522%253EMen%2520Premium%2520Jacket%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-price-wrapper%2520flex%2520flexCol%2520my-4%2520mx-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25201%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520mx-4%2522%253ERs.%25205%252C000.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2520mt-4%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-footer%2520m-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520add-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522button%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522btn%2520btn-outline-primary%2520wishlist-btn%2520mt-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Save%2520to%2520Wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+              style="
                 width: 645px;
                 height: 688px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
-      </div>
-      <div class="card-wrapper">
-        <h2 class="mt-4 mb-4">Vertical Card with Badges</h2>
-        <div class="vertical-card-wrapper">
-          <div class="vertical-card-image-wrapper pos-rel">
-            <img class="responsive-image" src="../../../assets/keyboard.jpg" alt="Keyboard image" />
-            <div class="vertical-card-badge-wrapper py-1 px-4">New</div>
-          </div>
-          <div class="vertical-card-header">
-            <h2 class="m-2">Keychron K6</h2>
-            <small class="mx-2">Blue Switches</small>
-          </div>
-          <div class="vertical-card-body my-4 mx-2">
-            <p>
-              The K6 has included keycaps for both Windows and Mac operating
-              systems. Hot-swappable version comes with Gateron switch
-              pre-installed.
-            </p>
-            <div class="vertical-card-price-wrapper mt-2">
-              <div class="mb-4">
-                <span class="product-discount-price">Rs. 7,999.00</span>
-                <span class="product-original-price ml-5">Rs. 9,438.82</span>
+        <div class="card-wrapper">
+          <h2 class="mt-4 mb-4">Vertical Card with Badges</h2>
+          <div class="vertical-card-wrapper">
+            <div class="vertical-card-image-wrapper pos-rel">
+              <img
+                class="responsive-image"
+                src="../../../assets/keyboard.jpg"
+                alt="Keyboard image"
+              />
+              <div class="vertical-card-badge-wrapper py-1 px-4">New</div>
+            </div>
+            <div class="vertical-card-header">
+              <h2 class="m-2">Keychron K6</h2>
+              <small class="mx-2">Blue Switches</small>
+            </div>
+            <div class="vertical-card-body my-4 mx-2">
+              <p>
+                The K6 has included keycaps for both Windows and Mac operating
+                systems. Hot-swappable version comes with Gateron switch
+                pre-installed.
+              </p>
+              <div class="vertical-card-price-wrapper mt-2">
+                <div class="mb-4">
+                  <span class="product-discount-price">Rs. 7,999.00</span>
+                  <span class="product-original-price ml-5">Rs. 9,438.82</span>
+                </div>
+                <span class="product-discount">Save 18%</span>
               </div>
-              <span class="product-discount">Save 18%</span>
+            </div>
+            <div class="vertical-card-footer">
+              <button type="button" class="btn btn-primary add-btn">
+                <i class="fas fa-shopping-cart mr-2"></i>
+                Add to Cart
+              </button>
             </div>
           </div>
-          <div class="vertical-card-footer">
-            <button type="button" class="btn btn-primary add-btn">
-              <i class="fas fa-shopping-cart mr-2"></i>
-              Add to Cart
-            </button>
-          </div>
-        </div>
-        <p class="my-4">
-          For using these vertical card with badge in your codebase use below
-          code snippets and for the addition of paddings and margins, you can
-          use their utility classes.
-        </p>
-        <div class="code-wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522vertical-card-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-image-wrapper%2520pos-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522responsive-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Fkeyboard.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Keyboard%2520image%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-badge-wrapper%2520py-1%2520px-4%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522m-2%2522%253EKeychron%2520K6%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522mx-2%2522%253EBlue%2520Switches%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-body%2520my-4%2520mx-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520The%2520K6%2520has%2520included%2520keycaps%2520for%2520both%2520Windows%2520and%2520Mac%2520operating%250A%2520%2520%2520%2520%2520%2520%2520%2520systems.%2520Hot-swappable%2520version%2520comes%2520with%2520Gateron%2520switch%250A%2520%2520%2520%2520%2520%2520%2520%2520pre-installed.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-price-wrapper%2520mt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25207%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520ml-5%2522%253ERs.%25209%252C438.82%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520add-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
-            style="
+          <p class="my-4">
+            For using these vertical card with badge in your codebase use below
+            code snippets and for the addition of paddings and margins, you can
+            use their utility classes.
+          </p>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522vertical-card-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-image-wrapper%2520pos-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522responsive-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Fkeyboard.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Keyboard%2520image%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-badge-wrapper%2520py-1%2520px-4%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522m-2%2522%253EKeychron%2520K6%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522mx-2%2522%253EBlue%2520Switches%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-body%2520my-4%2520mx-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520The%2520K6%2520has%2520included%2520keycaps%2520for%2520both%2520Windows%2520and%2520Mac%2520operating%250A%2520%2520%2520%2520%2520%2520%2520%2520systems.%2520Hot-swappable%2520version%2520comes%2520with%2520Gateron%2520switch%250A%2520%2520%2520%2520%2520%2520%2520%2520pre-installed.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-price-wrapper%2520mt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25207%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520ml-5%2522%253ERs.%25209%252C438.82%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520add-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+              style="
                 width: 636px;
                 height: 707px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
-      </div>
-      <div class="card-wrapper">
-        <h2 class="mt-4 mb-4">Vertical Card with Dismiss</h2>
-        <div class="vertical-card-wrapper">
-          <div class="vertical-card-image-wrapper pos-rel">
-            <img class="responsive-image" src="../../../assets/keyboard.jpg" alt="Keyboard image" />
-            <div class="dismiss-badge-wrapper flex flexAlignItemsCenter flexJustifyCenter">
-              &times;
-            </div>
-          </div>
-          <div class="vertical-card-header">
-            <h2 class="m-2">Keychron K6</h2>
-            <small class="mx-2">Blue Switches</small>
-          </div>
-          <div class="vertical-card-body my-4 mx-2">
-            <p>
-              The K6 has included keycaps for both Windows and Mac operating
-              systems. Hot-swappable version comes with Gateron switch
-              pre-installed.
-            </p>
-            <div class="vertical-card-price-wrapper mt-2">
-              <div class="mb-4">
-                <span class="product-discount-price">Rs. 7,999.00</span>
-                <span class="product-original-price ml-5">Rs. 9,438.82</span>
+        <div class="card-wrapper">
+          <h2 class="mt-4 mb-4">Vertical Card with Dismiss</h2>
+          <div class="vertical-card-wrapper">
+            <div class="vertical-card-image-wrapper pos-rel">
+              <img
+                class="responsive-image"
+                src="../../../assets/keyboard.jpg"
+                alt="Keyboard image"
+              />
+              <div
+                class="dismiss-badge-wrapper flex flexAlignItemsCenter flexJustifyCenter"
+              >
+                &times;
               </div>
-              <span class="product-discount">Save 18%</span>
+            </div>
+            <div class="vertical-card-header">
+              <h2 class="m-2">Keychron K6</h2>
+              <small class="mx-2">Blue Switches</small>
+            </div>
+            <div class="vertical-card-body my-4 mx-2">
+              <p>
+                The K6 has included keycaps for both Windows and Mac operating
+                systems. Hot-swappable version comes with Gateron switch
+                pre-installed.
+              </p>
+              <div class="vertical-card-price-wrapper mt-2">
+                <div class="mb-4">
+                  <span class="product-discount-price">Rs. 7,999.00</span>
+                  <span class="product-original-price ml-5">Rs. 9,438.82</span>
+                </div>
+                <span class="product-discount">Save 18%</span>
+              </div>
+            </div>
+            <div class="vertical-card-footer">
+              <button type="button" class="btn btn-primary add-btn">
+                <i class="fas fa-shopping-cart mr-2"></i>
+                Add to Cart
+              </button>
             </div>
           </div>
-          <div class="vertical-card-footer">
-            <button type="button" class="btn btn-primary add-btn">
-              <i class="fas fa-shopping-cart mr-2"></i>
-              Add to Cart
-            </button>
-          </div>
-        </div>
-        <p class="my-4">
-          For using these vertical card with dismiss in your codebase use
-          below code snippets and for the addition of paddings and margins,
-          you can use their utility classes.
-        </p>
-        <div class="code-wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522vertical-card-wrapper%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-image-wrapper%2520pos-rel%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522responsive-image%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Fkeyboard.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Keyboard%2520image%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522dismiss-badge-wrapper%2520flex%2520flexAlignItemsCenter%2520flexJustifyCenter%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2526times%253B%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522m-2%2522%253EKeychron%2520K6%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522mx-2%2522%253EBlue%2520Switches%253C%252Fsmall%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-body%2520my-4%2520mx-2%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520The%2520K6%2520has%2520included%2520keycaps%2520for%2520both%2520Windows%2520and%2520Mac%2520operating%250A%2520%2520%2520%2520%2520%2520systems.%2520Hot-swappable%2520version%2520comes%2520with%2520Gateron%2520switch%250A%2520%2520%2520%2520%2520%2520pre-installed.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-price-wrapper%2520mt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25207%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520ml-5%2522%253ERs.%25209%252C438.82%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-footer%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520add-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="
+          <p class="my-4">
+            For using these vertical card with dismiss in your codebase use
+            below code snippets and for the addition of paddings and margins,
+            you can use their utility classes.
+          </p>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522vertical-card-wrapper%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-image-wrapper%2520pos-rel%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522responsive-image%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Fkeyboard.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Keyboard%2520image%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522dismiss-badge-wrapper%2520flex%2520flexAlignItemsCenter%2520flexJustifyCenter%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2526times%253B%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522m-2%2522%253EKeychron%2520K6%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522mx-2%2522%253EBlue%2520Switches%253C%252Fsmall%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-body%2520my-4%2520mx-2%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520The%2520K6%2520has%2520included%2520keycaps%2520for%2520both%2520Windows%2520and%2520Mac%2520operating%250A%2520%2520%2520%2520%2520%2520systems.%2520Hot-swappable%2520version%2520comes%2520with%2520Gateron%2520switch%250A%2520%2520%2520%2520%2520%2520pre-installed.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-price-wrapper%2520mt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25207%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520ml-5%2522%253ERs.%25209%252C438.82%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-footer%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520add-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
                 width: 704px;
                 height: 781px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
-      </div>
-      <div class="card-wrapper">
-        <h2 class="mt-4 mb-4">Vertical Card with Text Overlay</h2>
-        <div class="vertical-card-wrapper pos-rel">
-          <div class="vertical-card-image-wrapper">
-            <img class="responsive-image" src="../../../assets/keyboard.jpg" alt="Keyboard image" />
-            <div class="out-stock-wrapper">Out Of Stock</div>
-          </div>
-          <div class="vertical-card-header">
-            <h2 class="m-2">Keychron K6</h2>
-            <small class="mx-2">Blue Switches</small>
-          </div>
-          <div class="vertical-card-body my-4 mx-2">
-            <p>
-              The K6 has included keycaps for both Windows and Mac operating
-              systems. Hot-swappable version comes with Gateron switch
-              pre-installed.
-            </p>
-            <div class="vertical-card-price-wrapper mt-2">
-              <div class="mb-4">
-                <span class="product-discount-price">Rs. 7,999.00</span>
-                <span class="product-original-price ml-5">Rs. 9,438.82</span>
+        <div class="card-wrapper">
+          <h2 class="mt-4 mb-4">Vertical Card with Text Overlay</h2>
+          <div class="vertical-card-wrapper pos-rel">
+            <div class="vertical-card-image-wrapper">
+              <img
+                class="responsive-image"
+                src="../../../assets/keyboard.jpg"
+                alt="Keyboard image"
+              />
+              <div class="out-stock-wrapper">Out Of Stock</div>
+            </div>
+            <div class="vertical-card-header">
+              <h2 class="m-2">Keychron K6</h2>
+              <small class="mx-2">Blue Switches</small>
+            </div>
+            <div class="vertical-card-body my-4 mx-2">
+              <p>
+                The K6 has included keycaps for both Windows and Mac operating
+                systems. Hot-swappable version comes with Gateron switch
+                pre-installed.
+              </p>
+              <div class="vertical-card-price-wrapper mt-2">
+                <div class="mb-4">
+                  <span class="product-discount-price">Rs. 7,999.00</span>
+                  <span class="product-original-price ml-5">Rs. 9,438.82</span>
+                </div>
+                <span class="product-discount">Save 18%</span>
               </div>
-              <span class="product-discount">Save 18%</span>
+            </div>
+            <div class="vertical-card-footer">
+              <button type="button" class="btn btn-primary add-btn">
+                <i class="fas fa-shopping-cart mr-2"></i>
+                Add to Cart
+              </button>
             </div>
           </div>
-          <div class="vertical-card-footer">
-            <button type="button" class="btn btn-primary add-btn">
-              <i class="fas fa-shopping-cart mr-2"></i>
-              Add to Cart
-            </button>
-          </div>
-        </div>
-        <p class="my-4">
-          For using these vertical card with text overlay in your codebase use
-          below code snippets and for the addition of paddings and margins,
-          you can use their utility classes.
-        </p>
-        <div class="code-wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522vertical-card-wrapper%2520pos-rel%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-image-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522responsive-image%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Fkeyboard.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Keyboard%2520image%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522out-stock-wrapper%2522%253EOut%2520Of%2520Stock%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522m-2%2522%253EKeychron%2520K6%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522mx-2%2522%253EBlue%2520Switches%253C%252Fsmall%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-body%2520my-4%2520mx-2%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520The%2520K6%2520has%2520included%2520keycaps%2520for%2520both%2520Windows%2520and%2520Mac%2520operating%250A%2520%2520%2520%2520%2520%2520systems.%2520Hot-swappable%2520version%2520comes%2520with%2520Gateron%2520switch%250A%2520%2520%2520%2520%2520%2520pre-installed.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-price-wrapper%2520mt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25207%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520ml-5%2522%253ERs.%25209%252C438.82%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-footer%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520add-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="
+          <p class="my-4">
+            For using these vertical card with text overlay in your codebase use
+            below code snippets and for the addition of paddings and margins,
+            you can use their utility classes.
+          </p>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522vertical-card-wrapper%2520pos-rel%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-image-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522responsive-image%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Fkeyboard.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Keyboard%2520image%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522out-stock-wrapper%2522%253EOut%2520Of%2520Stock%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522m-2%2522%253EKeychron%2520K6%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522mx-2%2522%253EBlue%2520Switches%253C%252Fsmall%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-body%2520my-4%2520mx-2%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520The%2520K6%2520has%2520included%2520keycaps%2520for%2520both%2520Windows%2520and%2520Mac%2520operating%250A%2520%2520%2520%2520%2520%2520systems.%2520Hot-swappable%2520version%2520comes%2520with%2520Gateron%2520switch%250A%2520%2520%2520%2520%2520%2520pre-installed.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-price-wrapper%2520mt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25207%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520ml-5%2522%253ERs.%25209%252C438.82%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-footer%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520add-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
                 width: 620px;
                 height: 707px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
-      </div>
-      <div class="card-wrapper">
-        <h2 class="mt-4 mb-4">Text Only Card</h2>
-        <div class="vertical-card-wrapper">
-          <div class="vertical-card-header">
-            <h2 class="m-2">Keychron K6</h2>
-            <small class="mx-2">Blue Switches</small>
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
           </div>
-          <div class="vertical-card-body my-4 mx-2">
-            <p>
-              The K6 has included keycaps for both Windows and Mac operating
-              systems. Hot-swappable version comes with Gateron switch
-              pre-installed.
-            </p>
-            <div class="vertical-card-price-wrapper mt-2">
-              <div class="mb-4">
-                <span class="product-discount-price">Rs. 7,999.00</span>
-                <span class="product-original-price ml-5">Rs. 9,438.82</span>
+        </div>
+        <div class="card-wrapper">
+          <h2 class="mt-4 mb-4">Text Only Card</h2>
+          <div class="vertical-card-wrapper">
+            <div class="vertical-card-header">
+              <h2 class="m-2">Keychron K6</h2>
+              <small class="mx-2">Blue Switches</small>
+            </div>
+            <div class="vertical-card-body my-4 mx-2">
+              <p>
+                The K6 has included keycaps for both Windows and Mac operating
+                systems. Hot-swappable version comes with Gateron switch
+                pre-installed.
+              </p>
+              <div class="vertical-card-price-wrapper mt-2">
+                <div class="mb-4">
+                  <span class="product-discount-price">Rs. 7,999.00</span>
+                  <span class="product-original-price ml-5">Rs. 9,438.82</span>
+                </div>
+                <span class="product-discount">Save 18%</span>
               </div>
-              <span class="product-discount">Save 18%</span>
             </div>
           </div>
-        </div>
-        <p class="my-4">
-          For using these text card in your codebase use below code snippets
-          and for the addition of paddings and margins, you can use their
-          utility classes.
-        </p>
-        <div class="code-wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522vertical-card-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522m-2%2522%253EKeychron%2520K6%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522mx-2%2522%253EBlue%2520Switches%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-body%2520my-4%2520mx-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520The%2520K6%2520has%2520included%2520keycaps%2520for%2520both%2520Windows%2520and%2520Mac%2520operating%250A%2520%2520%2520%2520%2520%2520%2520%2520systems.%2520Hot-swappable%2520version%2520comes%2520with%2520Gateron%2520switch%250A%2520%2520%2520%2520%2520%2520%2520%2520pre-installed.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-price-wrapper%2520mt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25207%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520ml-5%2522%253ERs.%25209%252C438.82%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="
+          <p class="my-4">
+            For using these text card in your codebase use below code snippets
+            and for the addition of paddings and margins, you can use their
+            utility classes.
+          </p>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522vertical-card-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522m-2%2522%253EKeychron%2520K6%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522mx-2%2522%253EBlue%2520Switches%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-body%2520my-4%2520mx-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520The%2520K6%2520has%2520included%2520keycaps%2520for%2520both%2520Windows%2520and%2520Mac%2520operating%250A%2520%2520%2520%2520%2520%2520%2520%2520systems.%2520Hot-swappable%2520version%2520comes%2520with%2520Gateron%2520switch%250A%2520%2520%2520%2520%2520%2520%2520%2520pre-installed.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-price-wrapper%2520mt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25207%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520ml-5%2522%253ERs.%25209%252C438.82%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
                 width: 636px;
                 height: 446px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
-      </div>
-      <div class="card-wrapper">
-        <h2 class="mt-4 mb-4">Vertical Card with Box Shadow</h2>
-        <div class="vertical-card-wrapper box-shadow">
-          <div class="vertical-card-image-wrapper">
-            <img class="responsive-image" src="../../../assets/keyboard.jpg" alt="Keyboard image" />
-          </div>
-          <div class="vertical-card-header">
-            <h2 class="m-2">Keychron K6</h2>
-            <small class="mx-2">Blue Switches</small>
-          </div>
-          <div class="vertical-card-body my-4 mx-2">
-            <p>
-              The K6 has included keycaps for both Windows and Mac operating
-              systems. Hot-swappable version comes with Gateron switch
-              pre-installed.
-            </p>
-            <div class="vertical-card-price-wrapper mt-2">
-              <div class="mb-4">
-                <span class="product-discount-price">Rs. 7,999.00</span>
-                <span class="product-original-price ml-5">Rs. 9,438.82</span>
+        <div class="card-wrapper">
+          <h2 class="mt-4 mb-4">Vertical Card with Box Shadow</h2>
+          <div class="vertical-card-wrapper box-shadow">
+            <div class="vertical-card-image-wrapper">
+              <img
+                class="responsive-image"
+                src="../../../assets/keyboard.jpg"
+                alt="Keyboard image"
+              />
+            </div>
+            <div class="vertical-card-header">
+              <h2 class="m-2">Keychron K6</h2>
+              <small class="mx-2">Blue Switches</small>
+            </div>
+            <div class="vertical-card-body my-4 mx-2">
+              <p>
+                The K6 has included keycaps for both Windows and Mac operating
+                systems. Hot-swappable version comes with Gateron switch
+                pre-installed.
+              </p>
+              <div class="vertical-card-price-wrapper mt-2">
+                <div class="mb-4">
+                  <span class="product-discount-price">Rs. 7,999.00</span>
+                  <span class="product-original-price ml-5">Rs. 9,438.82</span>
+                </div>
+                <span class="product-discount">Save 18%</span>
               </div>
-              <span class="product-discount">Save 18%</span>
+            </div>
+            <div class="vertical-card-footer">
+              <button type="button" class="btn btn-primary add-btn">
+                <i class="fas fa-shopping-cart mr-2"></i>
+                Add to Cart
+              </button>
             </div>
           </div>
-          <div class="vertical-card-footer">
-            <button type="button" class="btn btn-primary add-btn">
-              <i class="fas fa-shopping-cart mr-2"></i>
-              Add to Cart
-            </button>
-          </div>
-        </div>
-        <p class="my-4">
-          For using these vertical card with box shadow in your codebase use
-          below code snippets and for the addition of paddings and margins,
-          you can use their utility classes.
-        </p>
-        <div class="code-wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522vertical-card-wrapper%2520box-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-image-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522responsive-image%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Fkeyboard.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Keyboard%2520image%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522m-2%2522%253EKeychron%2520K6%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522mx-2%2522%253EBlue%2520Switches%253C%252Fsmall%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-body%2520my-4%2520mx-2%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520The%2520K6%2520has%2520included%2520keycaps%2520for%2520both%2520Windows%2520and%2520Mac%2520operating%250A%2520%2520%2520%2520%2520%2520systems.%2520Hot-swappable%2520version%2520comes%2520with%2520Gateron%2520switch%250A%2520%2520%2520%2520%2520%2520pre-installed.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-price-wrapper%2520mt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25207%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520ml-5%2522%253ERs.%25209%252C438.82%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-footer%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520add-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="
+          <p class="my-4">
+            For using these vertical card with box shadow in your codebase use
+            below code snippets and for the addition of paddings and margins,
+            you can use their utility classes.
+          </p>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C216%2C236%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522vertical-card-wrapper%2520box-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-image-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522responsive-image%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252F..%252Fassets%252Fkeyboard.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Keyboard%2520image%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522m-2%2522%253EKeychron%2520K6%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522mx-2%2522%253EBlue%2520Switches%253C%252Fsmall%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-body%2520my-4%2520mx-2%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520The%2520K6%2520has%2520included%2520keycaps%2520for%2520both%2520Windows%2520and%2520Mac%2520operating%250A%2520%2520%2520%2520%2520%2520systems.%2520Hot-swappable%2520version%2520comes%2520with%2520Gateron%2520switch%250A%2520%2520%2520%2520%2520%2520pre-installed.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-price-wrapper%2520mt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount-price%2522%253ERs.%25207%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-original-price%2520ml-5%2522%253ERs.%25209%252C438.82%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-discount%2522%253ESave%252018%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522vertical-card-footer%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520add-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520mr-2%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
                 width: 620px;
                 height: 688px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
-      </div>
-    </main>
-  </div>
-</body>
-
+      </main>
+    </div>
+  </body>
 </html>
