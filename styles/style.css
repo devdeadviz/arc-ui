@@ -13,8 +13,7 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   width: 100%;
-  margin: auto;
-  padding: 1rem;
+  padding: 8rem 1rem;
 }
 
 .main-logo {
