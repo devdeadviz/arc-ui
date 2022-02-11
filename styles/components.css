@@ -11,3 +11,7 @@
 @import "../pages/components/navigation/navigation.css";
 @import "../pages/components/rating/rating.css";
 @import "../pages/components/toast/toast.css";
+@import "./header.css";
+@import "./reset.css";
+@import "./utils.css";
+@import "./variable.css";
