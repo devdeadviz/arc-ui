@@ -1,3 +1,6 @@
+/* Importing external styles */
+@import "../../../styles/main.css";
+
 .alert-wrapper {
   width: 40vw;
   border: 0.5px solid lightgray;

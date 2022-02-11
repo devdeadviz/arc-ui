@@ -1,3 +1,6 @@
+/* Importing external styles */
+@import "../../../styles/main.css";
+
 .vertical-card-wrapper {
   width: 20rem;
   border: 1px solid lightgray;

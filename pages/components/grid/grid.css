@@ -1,3 +1,5 @@
+@import "../../../styles/main.css";
+
 .grid {
   display: grid;
   grid-column-gap: 1rem;
