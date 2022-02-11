@@ -1,12 +1,4 @@
-@import "../../../styles/typography.css";
-@import "../../../styles/variable.css";
-@import "../../../styles/reset.css";
-@import "../../../styles/header.css";
-@import "../../../styles/drawer.css";
-@import "../../../styles/padding.css";
-@import "../../../styles/margin.css";
-@import "../../../styles/utils.css";
-@import "../button/button.css";
+@import "../../../styles/main.css";
 
 .modal-wrapper {
   border: 2px solid var(--dark-color);

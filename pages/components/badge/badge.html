@@ -1,172 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Kuldeep Gupta" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="../../../assets/logo.png" type="image/icon type" />
+    <link rel="stylesheet" href="./badge.css" />
+    <link rel="stylesheet" href="../avatar/avatar.css" />
+    <link rel="stylesheet" href="../../../styles/flex.css" />
+    <link rel="stylesheet" href="../../../styles/margin.css" />
+    <link rel="stylesheet" href="../../../styles/padding.css" />
+    <title>Avatars Components</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="author" content="Kuldeep Gupta" />
-  <link rel="icon" href="../../../assets/logo.png" type="image/icon type" />
-  <link rel="stylesheet" href="./badge.css" />
-  <title>Avatars Components</title>
-</head>
-
-<body>
-  <header class="header">
-    <div class="header-wrapper">
-      <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
-      <a class="header-heading" href="../../../index.html">Arc UI</a>
-    </div>
-    <div class="header__nav">
-      <nav>
-        <ul>
-          <li>
-            <a target="_blank" class="social-icons-wrapper" href="https://twitter.com/devdeadviz">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" class="social-icons-wrapper" href="https://www.linkedin.com/in/devdeadviz/">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" class="social-icons-wrapper" href="https://github.com/devdeadviz">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <div class="container">
-    <aside class="drawer-wrapper">
-      <div class="drawer-header">
-        <h2 class="drawer-heading">Get Started</h2>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <img class="logo" src="../../../assets/logo.png" alt="Arc UI Logo" />
+        <a class="header-heading" href="../../../index.html">Arc UI</a>
       </div>
-      <hr />
-      <div class="drawer-options">
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/intro.html">
-          <p class="drawer-list-content">Introduction</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/color.html">
-          <p class="drawer-list-content">Colors</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../../get-started/typo.html">
-          <p class="drawer-list-content">Typography</p>
-        </a>
+      <div class="header__nav">
+        <nav>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://twitter.com/devdeadviz"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://www.linkedin.com/in/devdeadviz/"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="social-icons-wrapper"
+                href="https://github.com/devdeadviz"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <div class="drawer-header">
-        <h2 class="drawer-heading">Components</h2>
-      </div>
-      <hr />
-      <div class="drawer-options">
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../alert/alert.html">
-          <p class="drawer-list-content">Alert</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../avatar/avatar.html">
-          <p class="drawer-list-content">Avatars</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../badge/badge.html">
-          <p class="drawer-list-content">Badges</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../button/button.html">
-          <p class="drawer-list-content">Buttons</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../card/card.html">
-          <p class="drawer-list-content">Cards</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../grid/grid.html">
-          <p class="drawer-list-content">Grid</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../image/image.html">
-          <p class="drawer-list-content">Image</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../input/input.html">
-          <p class="drawer-list-content">Input</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../list/list.html">
-          <p class="drawer-list-content">List</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../modal/modal.html">
-          <p class="drawer-list-content">Modal</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../navigation/navigation.html">
-          <p class="drawer-list-content">Navigation</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../rating/rating.html">
-          <p class="drawer-list-content">Rating</p>
-        </a>
-        <a class="drawer-lists flex flexAlignItemsCenter" href="../toast/toast.html">
-          <p class="drawer-list-content">Toast</p>
-        </a>
-      </div>
-    </aside>
-    <main class="main-content">
-      <h1 class="mb-4">Badge</h1>
-      <p class="mb-4">
-        Badges are small circles, positioned either at top-right or
-        bottom-right of the parent component. Badge can be used to display
-        numbers, online / offline status, depending on where they are used.
-      </p>
-      <div class="badge-avatar-wrapper">
-        <h2 class="badge-avatar-heading mb-4">Badge on Avatars</h2>
-        <div class="badge-wrapper">
-          <figure class="pos-rel">
-            <img class="avatar mt-1 mb-1 ml-2 mr-2 avatar-round avatar-xxl" src="../../../assets/avatar-1.png"
-              alt="avatar 1" />
-            <span class="badge-count avatar-count-xxl">9</span>
-          </figure>
-          <figure class="pos-rel">
-            <img class="avatar mt-1 mb-1 ml-2 mr-2 avatar-round avatar-xl" src="../../../assets/avatar-2.png"
-              alt="avatar 2" />
-            <span class="badge-count avatar-count-xl">2</span>
-          </figure>
-          <figure class="pos-rel">
-            <img class="avatar mt-1 mb-1 ml-2 mr-2 avatar-round avatar-lg" src="../../../assets/avatar-3.png"
-              alt="avatar 3" />
-            <span class="badge-count avatar-count-lg">1</span>
-          </figure>
+    </header>
+    <div class="container">
+      <aside class="drawer-wrapper">
+        <div class="drawer-header">
+          <h2 class="drawer-heading">Get Started</h2>
         </div>
-        <p class="mt-4 mb-4">
-          The badge component can be used in two ways with and without the
-          count.
+        <hr />
+        <div class="drawer-options">
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/intro.html"
+          >
+            <p class="drawer-list-content">Introduction</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/color.html"
+          >
+            <p class="drawer-list-content">Colors</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../../get-started/typo.html"
+          >
+            <p class="drawer-list-content">Typography</p>
+          </a>
+        </div>
+        <div class="drawer-header">
+          <h2 class="drawer-heading">Components</h2>
+        </div>
+        <hr />
+        <div class="drawer-options">
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../alert/alert.html"
+          >
+            <p class="drawer-list-content">Alert</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../avatar/avatar.html"
+          >
+            <p class="drawer-list-content">Avatars</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../badge/badge.html"
+          >
+            <p class="drawer-list-content">Badges</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../button/button.html"
+          >
+            <p class="drawer-list-content">Buttons</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../card/card.html"
+          >
+            <p class="drawer-list-content">Cards</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../grid/grid.html"
+          >
+            <p class="drawer-list-content">Grid</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../image/image.html"
+          >
+            <p class="drawer-list-content">Image</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../input/input.html"
+          >
+            <p class="drawer-list-content">Input</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../list/list.html"
+          >
+            <p class="drawer-list-content">List</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../modal/modal.html"
+          >
+            <p class="drawer-list-content">Modal</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../navigation/navigation.html"
+          >
+            <p class="drawer-list-content">Navigation</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../rating/rating.html"
+          >
+            <p class="drawer-list-content">Rating</p>
+          </a>
+          <a
+            class="drawer-lists flex flexAlignItemsCenter"
+            href="../toast/toast.html"
+          >
+            <p class="drawer-list-content">Toast</p>
+          </a>
+        </div>
+      </aside>
+      <main class="main-content">
+        <h1 class="mb-4">Badge</h1>
+        <p class="mb-4">
+          Badges are small circles, positioned either at top-right or
+          bottom-right of the parent component. Badge can be used to display
+          numbers, online / offline status, depending on where they are used.
         </p>
-        <div class="code-wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=panda-syntax&wt=sharp&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfigure%2520class%253D%2522pos-rel%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520mt-1%2520mb-1%2520ml-2%2520mr-2%2520avatar-round%2520avatar-xxl%2522%2520src%253D%2522..%252F..%252F..%252Fassets%252Favatar-1.png%2522%2520alt%253D%2522avatar%25201%2522%2520%252F%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520badge-count-xxl%2522%253E9%253C%252Fspan%253E%250A%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cfigure%2520class%253D%2522pos-rel%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520mt-1%2520mb-1%2520ml-2%2520mr-2%2520avatar-round%2520avatar-xl%2522%2520src%253D%2522..%252F..%252F..%252Fassets%252Favatar-2.png%2522%2520alt%253D%2522avatar%25202%2522%2520%252F%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520badge-count-xl%2522%253E2%253C%252Fspan%253E%250A%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cfigure%2520class%253D%2522pos-rel%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520mt-1%2520mb-1%2520ml-2%2520mr-2%2520avatar-round%2520avatar-lg%2522%2520src%253D%2522..%252F..%252F..%252Fassets%252Favatar-3.png%2522%2520alt%253D%2522avatar%25203%2522%2520%252F%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520badge-count-lg%2522%253E4%253C%252Fspan%253E%250A%253C%252Ffigure%253E"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
+        <div class="badge-avatar-wrapper">
+          <h2 class="badge-avatar-heading mb-4">Badge on Avatars</h2>
+          <div class="badge-wrapper">
+            <figure class="pos-rel">
+              <img
+                class="avatar mt-1 mb-1 ml-2 mr-2 avatar-round avatar-xxl"
+                src="../../../assets/avatar-1.png"
+                alt="avatar 1"
+              />
+              <span class="badge-count avatar-count-xxl">9</span>
+            </figure>
+            <figure class="pos-rel">
+              <img
+                class="avatar mt-1 mb-1 ml-2 mr-2 avatar-round avatar-xl"
+                src="../../../assets/avatar-2.png"
+                alt="avatar 2"
+              />
+              <span class="badge-count avatar-count-xl">2</span>
+            </figure>
+            <figure class="pos-rel">
+              <img
+                class="avatar mt-1 mb-1 ml-2 mr-2 avatar-round avatar-lg"
+                src="../../../assets/avatar-3.png"
+                alt="avatar 3"
+              />
+              <span class="badge-count avatar-count-lg">1</span>
+            </figure>
+          </div>
+          <p class="mt-4 mb-4">
+            The badge component can be used in two ways with and without the
+            count.
+          </p>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=panda-syntax&wt=sharp&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfigure%2520class%253D%2522pos-rel%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520mt-1%2520mb-1%2520ml-2%2520mr-2%2520avatar-round%2520avatar-xxl%2522%2520src%253D%2522..%252F..%252F..%252Fassets%252Favatar-1.png%2522%2520alt%253D%2522avatar%25201%2522%2520%252F%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520badge-count-xxl%2522%253E9%253C%252Fspan%253E%250A%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cfigure%2520class%253D%2522pos-rel%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520mt-1%2520mb-1%2520ml-2%2520mr-2%2520avatar-round%2520avatar-xl%2522%2520src%253D%2522..%252F..%252F..%252Fassets%252Favatar-2.png%2522%2520alt%253D%2522avatar%25202%2522%2520%252F%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520badge-count-xl%2522%253E2%253C%252Fspan%253E%250A%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cfigure%2520class%253D%2522pos-rel%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520mt-1%2520mb-1%2520ml-2%2520mr-2%2520avatar-round%2520avatar-lg%2522%2520src%253D%2522..%252F..%252F..%252Fassets%252Favatar-3.png%2522%2520alt%253D%2522avatar%25203%2522%2520%252F%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520badge-count-lg%2522%253E4%253C%252Fspan%253E%250A%253C%252Ffigure%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
-      </div>
-      <div class="badge-avatar-wrapper">
-        <h2 class="badge-avatar-heading mt-2 mb-4">Badge on Icons</h2>
-        <div class="badge-wrapper">
-          <figure class="pos-rel m-5">
-            <i class="fas fa-shopping-cart fa-3x"></i>
-            <span class="badge-count icon-count-xxl">8</span>
-          </figure>
-          <figure class="pos-rel m-5">
-            <i class="fas fa-sms fa-3x"></i>
-            <span class="badge-count icon-count-xl">1</span>
-          </figure>
-          <figure class="pos-rel m-5">
-            <i class="fas fa-bell fa-3x"></i>
-            <span class="badge-count icon-count-lg">3</span>
-          </figure>
+        <div class="badge-avatar-wrapper">
+          <h2 class="badge-avatar-heading mt-2 mb-4">Badge on Icons</h2>
+          <div class="badge-wrapper">
+            <figure class="pos-rel m-5">
+              <i class="fas fa-shopping-cart fa-3x"></i>
+              <span class="badge-count icon-count-xxl">8</span>
+            </figure>
+            <figure class="pos-rel m-5">
+              <i class="fas fa-sms fa-3x"></i>
+              <span class="badge-count icon-count-xl">1</span>
+            </figure>
+            <figure class="pos-rel m-5">
+              <i class="fas fa-bell fa-3x"></i>
+              <span class="badge-count icon-count-lg">3</span>
+            </figure>
+          </div>
+          <p class="mt-4 mb-4">
+            The badge component can be used in two ways with and without the
+            count.
+          </p>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=panda-syntax&wt=sharp&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfigure%2520class%253D%2522pos-rel%2520m-5%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520icon-count-xxl%2522%253E8%253C%252Fspan%253E%250A%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cfigure%2520class%253D%2522pos-rel%2520m-5%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-sms%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520icon-count-xl%2522%253E1%253C%252Fspan%253E%250A%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cfigure%2520class%253D%2522pos-rel%2520m-5%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520icon-count-lg%2522%253E3%253C%252Fspan%253E%250A%253C%252Ffigure%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
-        <p class="mt-4 mb-4">
-          The badge component can be used in two ways with and without the
-          count.
-        </p>
-        <div class="code-wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=panda-syntax&wt=sharp&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfigure%2520class%253D%2522pos-rel%2520m-5%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520icon-count-xxl%2522%253E8%253C%252Fspan%253E%250A%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cfigure%2520class%253D%2522pos-rel%2520m-5%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-sms%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520icon-count-xl%2522%253E1%253C%252Fspan%253E%250A%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cfigure%2520class%253D%2522pos-rel%2520m-5%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520icon-count-lg%2522%253E3%253C%252Fspan%253E%250A%253C%252Ffigure%253E"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
-      </div>
-    </main>
-  </div>
-</body>
-
+      </main>
+    </div>
+  </body>
 </html>

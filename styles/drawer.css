@@ -1,10 +1,7 @@
-@import "./flex.css";
-
 .container {
   display: flex;
   flex-wrap: wrap;
 }
-
 
 .drawer-wrapper {
   background-color: var(--secondary-color);
@@ -48,8 +45,7 @@
   margin: 5rem 1rem 1rem 16.5rem;
 }
 
-@media  screen and (max-width: 1016px) {
-
+@media screen and (max-width: 1016px) {
   .drawer-wrapper {
     display: none;
   }

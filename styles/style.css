@@ -1,9 +1,5 @@
 /* Importing external styles */
-@import "./typography.css";
-@import "./variable.css";
-@import "./reset.css";
-@import "./header.css";
-@import "./margin.css";
+@import "./main.css";
 @import "../pages/components/button/button.css";
 
 .main-wrapper {
@@ -13,8 +9,7 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   width: 100%;
-  margin: auto;
-  padding: 1rem;
+  padding: 8rem 1rem;
 }
 
 .main-logo {
@@ -83,5 +78,4 @@
   .content-image {
     margin: 5rem 0;
   }
-
 }

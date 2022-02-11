@@ -1,16 +1,9 @@
-@import "../../../styles/typography.css";
-@import "../../../styles/variable.css";
-@import "../../../styles/reset.css";
-@import "../../../styles/header.css";
-@import "../../../styles/drawer.css";
-@import "../../../styles/padding.css";
-@import "../../../styles/margin.css";
-@import "../../../styles/utils.css";
+@import "../../../styles/main.css";
 
 .simple-rating-wrapper span {
   cursor: pointer;
 }
 
 .checked {
-  color: #FFA500;
+  color: #ffa500;
 }

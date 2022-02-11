@@ -1,14 +1,7 @@
-@import "../../../styles/typography.css";
-@import "../../../styles/variable.css";
-@import "../../../styles/reset.css";
-@import "../../../styles/header.css";
-@import "../../../styles/drawer.css";
-@import "../../../styles/padding.css";
-@import "../../../styles/margin.css";
-@import "../../../styles/utils.css";
+@import "../../../styles/main.css";
 
 .navigation-header {
-    position: static;
+  position: static;
   width: 100%;
   z-index: 0;
 }

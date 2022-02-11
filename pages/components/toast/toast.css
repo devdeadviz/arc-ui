@@ -1,11 +1,4 @@
-@import "../../../styles/typography.css";
-@import "../../../styles/variable.css";
-@import "../../../styles/reset.css";
-@import "../../../styles/header.css";
-@import "../../../styles/drawer.css";
-@import "../../../styles/padding.css";
-@import "../../../styles/margin.css";
-@import "../../../styles/utils.css";
+@import "../../../styles/main.css";
 
 .toast-wrapper {
   background: rgb(50, 50, 50);
