@@ -1,6 +1,3 @@
-/* Importing external styles */
-@import "../../../styles/main.css";
-
 .btn {
   font-size: calc(1.4 * var(--default-font-size));
   border: none;

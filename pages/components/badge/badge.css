@@ -1,6 +1,3 @@
-/* Importing external styles */
-@import "../../../styles/main.css";
-
 .badge-wrapper {
   display: flex;
   align-items: center;
