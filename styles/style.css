@@ -1,9 +1,5 @@
 /* Importing external styles */
-@import "./typography.css";
-@import "./variable.css";
-@import "./reset.css";
-@import "./header.css";
-@import "./margin.css";
+@import "./main.css";
 @import "../pages/components/button/button.css";
 
 .main-wrapper {
@@ -82,5 +78,4 @@
   .content-image {
     margin: 5rem 0;
   }
-
 }
