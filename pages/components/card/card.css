@@ -1,13 +1,19 @@
 .vertical-card-wrapper {
   width: 20rem;
   border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.responsive-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .add-btn,
 .wishlist-btn {
-  padding: 0.8rem;
-  width: 100%;
-  border-radius: 0;
+  margin: 0.5rem;
+  width: 95%;
+  border-radius: 5px;
   font-size: calc(1.2 * var(--default-font-size));
 }
 
@@ -56,10 +62,11 @@
 .out-stock-wrapper {
   position: absolute;
   color: var(--white-color);
+  border-radius: 10px;
   background-color: rgba(62, 67, 75, 0.5);
   font-size: calc(3 * var(--default-font-size));
   width: 20rem;
-  height: 32.28rem;
+  height: 100%;
   top: 0;
   text-align: center;
   padding-top: 10rem;
