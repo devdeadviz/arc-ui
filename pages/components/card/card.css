@@ -1,13 +1,19 @@
 .vertical-card-wrapper {
   width: 20rem;
   border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.responsive-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .add-btn,
 .wishlist-btn {
-  padding: 0.8rem;
-  width: 100%;
-  border-radius: 0;
+  margin: 0.5rem;
+  width: 95%;
+  border-radius: 5px;
   font-size: calc(1.2 * var(--default-font-size));
 }
 
