@@ -62,10 +62,11 @@
 .out-stock-wrapper {
   position: absolute;
   color: var(--white-color);
+  border-radius: 10px;
   background-color: rgba(62, 67, 75, 0.5);
   font-size: calc(3 * var(--default-font-size));
   width: 20rem;
-  height: 32.28rem;
+  height: 100%;
   top: 0;
   text-align: center;
   padding-top: 10rem;
