@@ -31,7 +31,7 @@
 }
 
 .drawer-list-content {
-  font-size: calc(1.3 * var(--default-font-size));
+  font-size: calc(1.05 * var(--default-font-size));
 }
 
 .drawer-lists:hover {
