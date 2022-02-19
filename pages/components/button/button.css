@@ -78,39 +78,27 @@
 /* Standard Button Hover Property */
 
 .btn-primary:hover {
-  background-color: transparent;
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+  opacity: 0.8;
 }
 
 .btn-secondary:hover {
-  background-color: transparent;
-  border: 1px solid var(--secondary-color);
-  color: var(--secondary-color);
+  opacity: 0.8;
 }
 
 .btn-success:hover {
-  background-color: transparent;
-  border: 1px solid var(--success-dark-color);
-  color: var(--success-dark-color);
+  opacity: 0.8;
 }
 
 .btn-danger:hover {
-  background-color: transparent;
-  border: 1px solid var(--danger-dark-color);
-  color: var(--danger-dark-color);
+  opacity: 0.8;
 }
 
 .btn-warning:hover {
-  background-color: transparent;
-  border: 1px solid var(--warning-dark-color);
-  color: var(--warning-dark-color);
+  opacity: 0.8;
 }
 
 .btn-dark:hover {
-  background-color: transparent;
-  border: 1px solid var(--darker-color);
-  color: var(--darker-color);
+  opacity: 0.8;
 }
 
 /* outline Button Hover Property */
