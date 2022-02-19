@@ -47,7 +47,7 @@
 
 .main-content {
   flex-grow: 1;
-  margin: 5rem 1rem 1rem 16.5rem;
+  margin: 5.5rem 2rem 1rem 17rem;
 }
 
 @media screen and (max-width: 1016px) {
@@ -56,6 +56,7 @@
   }
 
   .main-content {
-    margin-left: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
