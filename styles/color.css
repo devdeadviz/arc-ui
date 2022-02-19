@@ -1,0 +1,66 @@
+/* Importing external styles */
+@import "./main.css";
+
+.color-box-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 10rem;
+  width: 10rem;
+}
+
+.primary {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.success {
+  background-color: var(--success-color);
+  color: var(--text-color);
+}
+
+.success-dark {
+  background-color: var(--success-dark-color);
+  color: var(--white-color);
+}
+
+.danger {
+  background-color: var(--danger-color);
+  color: var(--text-color);
+}
+
+.danger-dark {
+  background-color: var(--danger-dark-color);
+  color: var(--white-color);
+}
+
+.warning {
+  background-color: var(--warning-color);
+  color: var(--text-color);
+}
+
+.warning-dark {
+  background-color: var(--warning-dark-color);
+  color: var(--white-color);
+}
+
+.dark {
+  background-color: var(--dark-color);
+  color: var(--text-color);
+}
+
+.darker {
+  background-color: var(--darker-color);
+  color: var(--white-color);
+}
