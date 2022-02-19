@@ -1,2 +1,7 @@
 /* Importing external styles */
 @import "./main.css";
+
+.custom-style {
+  background-color: #363232;
+  font-size: 1.1rem;
+}
