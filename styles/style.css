@@ -35,7 +35,7 @@
 }
 
 .content-subHeading {
-  font-size: calc(1.5 * var(--default-font-size));
+  font-size: calc(1.28 * var(--default-font-size));
   padding: 1rem 1rem;
   color: var(--text-color);
   width: 30rem;
@@ -62,9 +62,11 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: transparent;
+  height: 2.2rem;
+  background-color: var(--secondary-color);
   color: var(--text-color);
   text-align: center;
+  padding: 0.5rem;
 }
 
 @media only screen and (max-width: 1010px) {
@@ -72,10 +74,11 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: space-around;
-    padding: 5rem;
+    padding: 1rem;
   }
 
   .content-image {
+    width: 90%;
     margin: 5rem 0;
   }
 }

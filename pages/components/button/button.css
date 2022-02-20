@@ -1,5 +1,5 @@
 .btn {
-  font-size: calc(1.4 * var(--default-font-size));
+  font-size: calc(1 * var(--default-font-size));
   border: none;
   padding: 1rem;
   border-radius: 5px;
