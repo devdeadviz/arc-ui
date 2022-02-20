@@ -35,7 +35,7 @@
 }
 
 .content-subHeading {
-  font-size: calc(1.5 * var(--default-font-size));
+  font-size: calc(1.28 * var(--default-font-size));
   padding: 1rem 1rem;
   color: var(--text-color);
   width: 30rem;
