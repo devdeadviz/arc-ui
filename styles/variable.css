@@ -20,12 +20,12 @@
 
 @media screen and (max-width: 1016px) {
   :root {
-    --default-font-size: 21px;
+    --default-font-size: 22px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 379px) {
   :root {
-    --default-font-size: 30px;
+    --default-font-size: 23px;
   }
 }
