@@ -71,7 +71,7 @@
 
 /* Mobile Header Styles */
 
-.menuItem {
+.menu-item {
   display: none;
 }
 
@@ -88,7 +88,7 @@
     display: none;
   }
 
-  .menuItem {
+  .menu-item {
     display: block;
     margin: 2rem 4rem;
     font-size: 1.8rem;
@@ -96,7 +96,7 @@
     text-decoration: none;
   }
 
-  .menuItem:hover {
+  .menu-item:hover {
     text-decoration: underline;
   }
 
@@ -114,7 +114,7 @@
     border: none;
   }
 
-  .closeIcon {
+  .close-icon {
     display: none;
   }
 
@@ -134,7 +134,7 @@
     overflow-y: scroll;
   }
 
-  .showMenu {
+  .show-menu {
     transform: translateY(0);
   }
 }
