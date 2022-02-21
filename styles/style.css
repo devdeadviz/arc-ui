@@ -2,6 +2,14 @@
 @import "./main.css";
 @import "../pages/components/button/button.css";
 
+.social-icons-wrapper {
+  text-decoration: none;
+}
+
+.social-icons-wrapper i {
+  display: block;
+}
+
 .main-wrapper {
   display: flex;
   flex-direction: row;
