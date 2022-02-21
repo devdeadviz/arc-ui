@@ -3,3 +3,32 @@
   width: 100%;
   z-index: 0;
 }
+
+.mobile-hamburger {
+  display: none;
+}
+
+.mobile-hamburger i {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1016px) {
+  .social-links p {
+    display: none;
+  }
+
+  .mobile-hamburger {
+    display: block;
+    background: transparent;
+    position: relative;
+    top: -5px;
+    right: -2.5rem;
+    color: var(--white-color);
+    border: none;
+    outline: none;
+  }
+
+  .mobile-hamburger i {
+    font-size: 1.5rem;
+  }
+}
