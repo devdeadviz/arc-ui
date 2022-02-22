@@ -18,19 +18,19 @@ In order to introduce Arc UI to your project, copy the link given below and past
 
 ### For importing all components styles
 
-```
+```html
 <link rel="stylesheet" href="https://arcui.netlify.app/styles/components.css">
 ```
 
 ### For importing particular component style
 
-```
+```html
 <link rel="stylesheet" href="https://arcui.netlify.app/pages/components/componentName/componentName.css">
 ```
 
 ### For importing particular component javascript
 
-```
+```html
 <link rel="stylesheet" href="https://arcui.netlify.app/scripts/componentName.js">
 ```
 
@@ -46,24 +46,24 @@ Checkout Our [Documentation Site](https://arcui.netlify.app/pages/get-started/in
 
 ## Components provided by Arc UI
 
-- Alerts
+- [Alerts](https://arcui.netlify.app/pages/components/alert/alert.html)
   - Standard Alerts
   - Outline Alerts
   - Alerts with Icon
-- Avatars
+- [Avatars](https://arcui.netlify.app/pages/components/avatar/avatar.html)
   - Square Avatars
   - Round Avatars
   - Round Avatars with different sizes
-- Badges
+- [Badges](https://arcui.netlify.app/pages/components/badge/badge.html)
   - Badge on Avatars
   - Badge on Icons
-- Buttons
+- [Buttons](https://arcui.netlify.app/pages/components/button/button.html)
   - Standard Buttons
   - Outline Buttons
   - Link Buttons
   - Icon Buttons
   - Floating Buttons
-- Cards
+- [Cards](https://arcui.netlify.app/pages/components/card/card.html)
   - Vertical Card
   - Horizontal Card
   - Vertical Card with Badge
@@ -71,29 +71,31 @@ Checkout Our [Documentation Site](https://arcui.netlify.app/pages/get-started/in
   - Vertical Card with Text Overlay
   - Text Only Card
   - Vertical Card with Box Shadow
-- Grids
+- [Grids](https://arcui.netlify.app/pages/components/grid/grid.html)
   - Grid with 2 columns
   - Grid with 3 columns
-- Images
+- [Images](https://arcui.netlify.app/pages/components/image/image.html)
   - Responsive Image
   - Round Image
   - Responisve Image with Size Variant
   - Round Image with Size Variant
-- Inputs
+- [Inputs](https://arcui.netlify.app/pages/components/input/input.html)
   - Text Input
   - Validation Input
-- Lists
+- [Lists](https://arcui.netlify.app/pages/components/list/list.html)
   - Stacked Lists
   - Spaced Lists
-- Modal
+- [Modal](https://arcui.netlify.app/pages/components/modal/modal.html)
   - Simple Modal
-- Navigation
+- [Navigation](https://arcui.netlify.app/pages/components/navigation/navigation.html)
   - Standard Navigation
   - Standard Navigation without Icons
   - Short Navigation
-- Rating
+- [Rating](https://arcui.netlify.app/pages/components/rating/rating.html)
   - Simple Rating
-- Toast
+- [Slider](https://arcui.netlify.app/pages/components/slider/slider.html)
+  - Simple Slider
+- [Toast](https://arcui.netlify.app/pages/components/toast/toast.html)
   - Basic Toast
   - Toast with Close Button
 
