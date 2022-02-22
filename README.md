@@ -8,7 +8,7 @@ Arc UI is an open source styling framework, which helps Developers to use best s
 
 ## Demo
 
-<img src="./assets/Animation.gif"/>
+<img src="./assets/lib-demo.gif"/>
 
 Checkout the [Live Link](https://arcui.netlify.app/)
 
